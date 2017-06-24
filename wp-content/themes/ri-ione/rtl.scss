@@ -1,0 +1,248 @@
+/*
+Theme Name: ri-ione
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+Visible from ri-iOne 1.0.1
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+@mixin transition-all($time) {
+  transition: all $time;
+  -webkit-transition: all $time;
+  -moz-transition: all $time;
+  -o-transition: all $time;
+  -ms-transition: all $time;
+}
+
+@mixin transition($val) {
+  transition: $val;
+  -webkit-transition: $val;
+  -moz-transition: $val;
+  -o-transition: $val;
+  -ms-transition: $val;
+}
+
+@mixin border-radius($val) {
+  border-radius: $val;
+  -moz-border-radius: $val;
+  -o-border-radius: $val;
+  -webkit-border-radius: $val;
+  -ms-border-radius: $val;
+}
+
+@mixin transform($val) {
+  -webkit-transform: $val;
+  -moz-transform: $val;
+  -ms-transform: $val;
+  -o-transform: $val;
+  transform: $val
+}
+
+/*Color*/
+$primary_color: #252525;
+$border_color: #ebebeb;
+$color_hover: #a1a1a1;
+$white-text: #fff;
+$color_c: #ccc;
+$bg_block: #f5f5f5;
+$gray_5: #555;
+$sec_color: #acacac;
+$footer-color: #494949;
+$body-color: #494949;
+$sidebar-color: #494949;
+$project-info: #959595;
+$description-color: #7d7d7d;
+$black_transparent_1: rgba(0, 0, 0, 0.1);
+$black_transparent_2: rgba(0, 0, 0, 0.2);
+$black_transparent_4: rgba(0, 0, 0, 0.4);
+$black_transparent_5: rgba(0, 0, 0, 0.5);
+$black_transparent_8: rgba(0, 0, 0, 0.8);
+$black_transparent_9: rgba(0, 0, 0, 0.9);
+$white_transparent_8: rgba(255, 255, 255, 0.8);
+$white_transparent_5: rgba(255, 255, 255, 0.5);
+$white_transparent_2: rgba(255, 255, 255, 0.2);
+$white_transparent_1: rgba(255, 255, 255, 0.1);
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+caption,
+th,
+td {
+  text-align: right;
+}
+
+.rtl {
+  .woo-sidebar .widget-title, .single-product-navigation .prev-product, #top-cart .cart_list .empty, .mini_cart_item .right-mini-cart-item,
+  #main-navigation > div > ul ul, #rit-header.one-line .main-menu > ul > li ul, .widget-footer-title {
+    text-align: right;
+  }
+  #top-right-header, .post-pagination .next-post, #bottom-footer .bottom-footer-block, #footer-page.one-line .right-bottom-footer,
+  #footer-page.one-line .right-bottom-footer .rit-widget-social-icon, .woocommerce-ordering .orderby, .woocommerce nav.woocommerce-pagination,
+  .woo-sidebar .prdctfltr_woocommerce_ordering .prdctfltr_reset, .single-product-navigation, .single-product-navigation .product-item-info,
+  .woocommerce-cart .cart-subtotal .content-row, .woocommerce-cart .order-total .content-row, .woocommerce-checkout .cart-subtotal .content-row, .woocommerce-checkout .order-total .content-row,
+  .woocommerce .woocommerce-checkout-review-order-table.shop_table li .content-row.product-total, .wrap-content-shortcode-banner .wrap-content.right,
+  .rit-list-product-category, .header-product-filter, .wrap-content-product-filter > .rit-ajax-load, #rit-header.menu-right #main-navigation{
+    text-align: left;
+  }
+  .pull-left,
+  .author-img, .author-content, #comments-list .comment-avatar, #comments-list .comment-content, .rit-posts-widget li:not(.no-thumb) .post-widget-image,
+  .rit-posts-widget li:not(.no-thumb) .post-widget-item-text, #top-product-page .layout-control-block, #top-product-page .woocommerce-result-count, #top-product-page .wrap-woo-ordering,
+  .woocommerce ul.products.list li.product .wrap-product-thumb, .woocommerce ul.products.list li.product .wrap-product-text, .wrap-left-single-product .wrap-thumbs-gal,
+  .single-product-navigation .prev-product i, .single-product-navigation .product-item-info, .woocommerce .quantity .qty,
+  .woocommerce .quantity .qty-nav, .woocommerce .single-product-navigation li, .mini_cart_item .product-thumb,
+  #rit-quickview-lb .wrap-left-single-product, .woocommerce-cart .shop_table .label-row, .woocommerce-checkout .shop_table .label-row,
+  .woocommerce-cart .shop_table .content-row, .woocommerce-checkout .shop_table .content-row, .wrap_shortcode_pc_banner.metro .rit_pc_banner_item,
+  .list-title-item .left-post, .list-title-item .rit-post-inner, .canvas-icon .bar, #rit-header.vertical, #rit-header.vertical .header-search-block,
+  #rit-header.vertical .header-search-block form,  #rit-header.vertical .header-search-block:after, .vertical-content{
+    float: right;
+  }
+  .pull-right,
+  .prdctfltr_checkboxes > label > span > span, .wrap-left-single-product .wrap-single-image, .single-product-navigation .next-product i,
+  .single-product-navigation .product-img, .mini_cart_item .right-mini-cart-item .amount, #main-navigation > div > ul > li.page_item_has_children > a:after, #main-navigation > div > ul > li.menu-item-has-children > a:after,
+  #main-navigation > div > ul > li ul .menu-item-has-children > a:after, #main-navigation > div > ul > li ul .page_item_has_children > a:after{
+    float: left;
+  }
+  #main-navigation > div > ul ul:not(.pos-left){
+    right: 0;
+    left: auto;
+  }
+  #main-navigation > div > ul ul li:hover > ul:not(.pos-left) {
+    right: 100%;
+    left: auto;
+  }
+  #main-navigation > div > ul ul li:hover > ul.pos-left {
+    right: auto;
+    left: 100%;
+  }
+  #main-navigation > div > ul ul ul:not(.pos-left) {
+    right: calc(100% + 30px);
+    left: auto; }
+  #main-navigation > div > ul ul ul.pos-left {
+    left: calc(100% + 30px);
+    right: auto; }
+  #rit-header.stack-center #right-header{
+    left: 15px;
+    right: 0;
+    float: left;
+    .list-icon{
+      float: left;
+    }
+  }
+  #rit-header.stack-center #main-navigation{
+    position: relative;
+    z-index: 4;
+  }
+  .rit-widget-social-icon.both i{
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  .newsletter-widget form p{
+    padding-right: 0;
+    padding-left: 10px;
+  }
+  .newsletter-widget form p:last-child{
+    padding:0
+  }
+  .top-cart-total{
+    left: 0;
+    right: auto;
+  }
+  .header-post .post-date{
+    padding-left:0;
+    padding-right: 50px;
+  }
+  .rit-posts-widget li:not(.no-thumb) .post-widget-item-text{
+    padding-right: 15px;
+    padding-left: 0;
+  }
+  .header-post .post-date::before{
+    right: 0;
+    left: auto;
+  }
+  blockquote::before, .quote::before, q::before{
+    left: 0;
+    right: 45px;
+  }
+  .author-content{
+    padding-right: 30px;
+    padding-left: 10px;
+  }
+  .post-content ul > li::before{
+    right: 0;
+    left: auto;
+  }
+  .post-content ul > li{
+    padding-left: 0;
+    padding-right: 15px;
+  }
+  .prdctfltr_wc.prdctfltr_square .prdctfltr_filter label > span::before{
+    margin-left: 12px;
+    margin-right:0;
+  }
+  .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering{
+    float: left;
+  }
+  .single-product-navigation .product-item{
+    right: auto;
+    left: 0;
+  }
+  #main-navigation > div > ul > li.page_item_has_children > a::after, #main-navigation > div > ul > li.menu-item-has-children > a::after{
+    padding-left: 0;
+    padding-right: 5px;
+  }
+  &.woocommerce div.product form.cart div.quantity{
+    float: right;
+    margin-left: 10px !important;
+    margin-right: 0 !important;
+  }
+  &.woocommerce .woocommerce-product-rating .star-rating{
+    float: right;
+    margin-left: 5px;
+    margin-right: 0;
+  }
+  .mini_cart_item .right-mini-cart-item{
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  .mini_cart_item .right-mini-cart-item .remove{
+    right: auto;
+    left: -5px;
+  }
+  #top-cart .wrap-mini-cart{
+    right: 100%;
+    @include transform(translateX(0));
+  }
+  &.cart-active #top-cart .wrap-mini-cart{
+    @include transform(translateX(360px));
+  }
+  &.woocommerce-account .woocommerce-MyAccount-navigation{
+    float: right;
+  }
+}
+
+@media (min-width: 769px) {
+  .rtl {
+    #rit-header.vertical .header-search-block, #rit-header.vertical .header-search-block {
+      text-align: right;
+    }
+    .filter-block{
+      float: right;
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .rtl {
+    #main-footer, #top-footer,  .footer-block  {
+      text-align: right;
+    }
+  }
+}
+
+@media (max-width: 681px) {
+  .rtl #yith-wcwl-form .product-price, #yith-wcwl-form .product-stock-status {
+    text-align: right;
+  }
+}

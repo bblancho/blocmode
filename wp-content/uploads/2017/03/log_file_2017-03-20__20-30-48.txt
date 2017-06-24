@@ -1,0 +1,210 @@
+
+---Downloaded files---
+The import files for: Adventure Love were successfully downloaded!
+MAX EXECUTION TIME = 300
+Files info:
+Site URL = http://blocmode.com
+Data file = /home/dressingbu/www/wp-content/uploads/2017/03/demo-content-import-file_2017-03-20__20-30-48.xml
+Widget file = /home/dressingbu/www/wp-content/uploads/2017/03/demo-widgets-import-file_2017-03-20__20-30-48.json
+Customizer file = not defined!
+Theme Options file = YToxMjU6e3M6MTI6IndpZGdldF9zdHlsZSI7czo2OiJzdHlsZTMiO3M6MTY6Im1vYmlsZV9tZW51X2ljb24iO3M6Mjoib24iO3M6OToiZnVsbF9tZW51IjtzOjI6Im9uIjtzOjEyOiJzY3JvbGxfdG90b3AiO3M6Mjoib24iO3M6MTQ6InJlbGF0aXZlX2RhdGVzIjtzOjI6Im9uIjtzOjEzOiJibG9nX2ZlYXR1cmVkIjtzOjA6IiI7czoxMzoiYXJ0aWNsZV9zdHlsZSI7czo2OiJzdHlsZTEiO3M6MTc6InJlYWRpbmdfaW5kaWNhdG9yIjtzOjI6Im9uIjtzOjE3OiJhcnRpY2xlX2Z1bGx3aWR0aCI7czozOiJvZmYiO3M6MTM6InJlbGF0ZWRfcG9zdHMiO3M6Mjoib24iO3M6MTM6InJlbGF0ZWRfY291bnQiO3M6MDoiIjtzOjEzOiJpbmZpbml0ZV9sb2FkIjtzOjI6Im9uIjtzOjIxOiJhcnRpY2xlX2ZpeGVkX3NpZGViYXIiO3M6Mjoib24iO3M6MTQ6ImFydGljbGVfYXV0aG9yIjtzOjI6Im9uIjtzOjE1OiJhcnRpY2xlX2Ryb3BjYXAiO3M6Mjoib24iO3M6MTM6InNoYXJpbmdfY2FjaGUiO3M6MToiMSI7czoxNToic2hhcmluZ19idXR0b25zIjthOjQ6e2k6MDtzOjg6ImZhY2Vib29rIjtpOjE7czo3OiJ0d2l0dGVyIjtpOjI7czoxMToiZ29vZ2xlLXBsdXMiO2k6NDtzOjg6ImxpbmtlZGluIjt9czoxNjoiaGlkZV96ZXJvX3NoYXJlcyI7czozOiJvZmYiO3M6MjM6ImdlbmVyYWxfZGlzYWJsZV9vZ190YWdzIjtzOjM6Im9mZiI7czoxNzoic2VsZWN0aW9uX3NoYXJpbmciO3M6Mjoib24iO3M6MjM6InNlbGVjdGlvbl9zaGFyaW5nX2FwcGlkIjtzOjE1OiIxMTQwNTcwOTIyNjAzOTYiO3M6MjU6InNlbGVjdGlvbl9zaGFyaW5nX2J1dHRvbnMiO2E6Mzp7aTowO3M6ODoiZmFjZWJvb2siO2k6MTtzOjc6InR3aXR0ZXIiO2k6MjtzOjU6ImVtYWlsIjt9czoxMToibWVudV9mb290ZXIiO3M6MTQ1OiI8cD5Db3B5cmlnaHQgwqkgMjAxNSBUaGUgVm91eCwgQWxsIHJpZ2h0cyBSZXNlcnZlZC4gPGEgaHJlZj0iaHR0cDovL3RoZW1lZm9yZXN0Lm5ldC91c2VyL2Z1ZWx0aGVtZXM/cmVmPWZ1ZWx0aGVtZXMiPkNyZWF0ZWQgYnkgRnVlbHRoZW1lczwvYT48L3A+IjtzOjEzOiJoZWFkZXJfaGVpZ2h0IjthOjI6e2k6MDtzOjA6IiI7aToxO3M6MDoiIjt9czoxOToiaGVhZGVyX2hlaWdodF9maXhlZCI7YToyOntpOjA7czowOiIiO2k6MTtzOjA6IiI7fXM6MjA6ImhlYWRlcl9oZWlnaHRfbW9iaWxlIjthOjI6e2k6MDtzOjA6IiI7aToxO3M6MDoiIjt9czoxMjoiaGVhZGVyX3N0eWxlIjtzOjY6InN0eWxlMSI7czoxNzoiaGVhZGVyX21lbnVfY29sb3IiO3M6NToibGlnaHQiO3M6MTg6ImhlYWRlcl9zb2NpYWxzdHlsZSI7czo2OiJzdHlsZTEiO3M6MTg6ImxvZ29faGVpZ2h0X21vYmlsZSI7czowOiIiO3M6MTE6ImxvZ29faGVpZ2h0IjthOjI6e2k6MDtzOjI6IjU2IjtpOjE7czoyOiJweCI7fXM6NDoibG9nbyI7czo5MjoiaHR0cDovL3RoZXZvdXguZnVlbHRoZW1lcy5uZXQvdHJhdmVsLWRlbW8vd3AtY29udGVudC91cGxvYWRzL3NpdGVzLzMvMjAxNi8wMi90cmF2ZWxfbG9nby5wbmciO3M6MTQ6ImZiX2xpbmtfaGVhZGVyIjtzOjA6IiI7czoyMToicGludGVyZXN0X2xpbmtfaGVhZGVyIjtzOjE6IiMiO3M6MTk6InR3aXR0ZXJfbGlua19oZWFkZXIiO3M6MToiIyI7czoyMjoiZ29vZ2xlcGx1c19saW5rX2hlYWRlciI7czowOiIiO3M6MjA6ImxpbmtlZGluX2xpbmtfaGVhZGVyIjtzOjA6IiI7czoyMjoiaW5zdHJhZ3JhbV9saW5rX2hlYWRlciI7czowOiIiO3M6MTY6InhpbmdfbGlua19oZWFkZXIiO3M6MDoiIjtzOjE4OiJ0dW1ibHJfbGlua19oZWFkZXIiO3M6MToiIyI7czoxNDoidmtfbGlua19oZWFkZXIiO3M6MToiIyI7czoyMjoic291bmRjbG91ZF9saW5rX2hlYWRlciI7czowOiIiO3M6MjA6ImRyaWJiYmxlX2xpbmtfaGVhZGVyIjtzOjA6IiI7czoxOToieW91dHViZV9saW5rX2hlYWRlciI7czowOiIiO3M6MTk6InNwb3RpZnlfbGlua19oZWFkZXIiO3M6MDoiIjtzOjE5OiJiZWhhbmNlX2xpbmtfaGVhZGVyIjtzOjA6IiI7czoyMjoiZGV2aWFudGFydF9saW5rX2hlYWRlciI7czowOiIiO3M6MTc6ImZvb3Rlcl9zb2NpYWxfYmFyIjtzOjM6Im9mZiI7czoyMToiZm9vdGVyX3NvY2lhbF9idXR0b25zIjthOjE3OntpOjA7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjE7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjI7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjM7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjQ7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjU7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjY7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjc7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjg7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjk7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjEwO2E6Mjp7czoyMToiZm9vdGVyX3NvY2lhbF9uZXR3b3JrIjtzOjg6ImZhY2Vib29rIjtzOjQ6ImhyZWYiO3M6MDoiIjt9aToxMTthOjI6e3M6MjE6ImZvb3Rlcl9zb2NpYWxfbmV0d29yayI7czo4OiJmYWNlYm9vayI7czo0OiJocmVmIjtzOjA6IiI7fWk6MTI7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjEzO2E6Mjp7czoyMToiZm9vdGVyX3NvY2lhbF9uZXR3b3JrIjtzOjg6ImZhY2Vib29rIjtzOjQ6ImhyZWYiO3M6MDoiIjt9aToxNDthOjI6e3M6MjE6ImZvb3Rlcl9zb2NpYWxfbmV0d29yayI7czo4OiJmYWNlYm9vayI7czo0OiJocmVmIjtzOjA6IiI7fWk6MTU7YToyOntzOjIxOiJmb290ZXJfc29jaWFsX25ldHdvcmsiO3M6ODoiZmFjZWJvb2siO3M6NDoiaHJlZiI7czowOiIiO31pOjE2O2E6Mjp7czoyMToiZm9vdGVyX3NvY2lhbF9uZXR3b3JrIjtzOjg6ImZhY2Vib29rIjtzOjQ6ImhyZWYiO3M6MDoiIjt9fXM6NjoiZm9vdGVyIjtzOjI6Im9uIjtzOjEyOiJmb290ZXJfc3R5bGUiO3M6Njoic3R5bGUxIjtzOjE0OiJmb290ZXJfY29sdW1ucyI7czoxMToiZm91cmNvbHVtbnMiO3M6MTE6ImZvb3Rlcl9ncmlkIjtzOjI6Im9uIjtzOjExOiJmb290ZXJfbWVudSI7czowOiIiO3M6MTE6ImZvb3Rlcl90ZXh0IjtzOjA6IiI7czo5OiJzdWJmb290ZXIiO3M6Mjoib24iO3M6MTc6InN1YmZvb3Rlcl9jb250ZW50IjtzOjExOiJmb290ZXItdGV4dCI7czoxNDoic3ViZm9vdGVyX21lbnUiO3M6MDoiIjtzOjE0OiJzdWJmb290ZXJfdGV4dCI7czo1NzoiQ29weXJpZ2h0IMKpMjAxNiwgVEhFIFZPVVggTUFHQVpJTkUuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuIjtzOjc6ImZiX2xpbmsiO3M6MDoiIjtzOjE0OiJwaW50ZXJlc3RfbGluayI7czowOiIiO3M6MTI6InR3aXR0ZXJfbGluayI7czowOiIiO3M6MTU6Imdvb2dsZXBsdXNfbGluayI7czowOiIiO3M6MTM6ImxpbmtlZGluX2xpbmsiO3M6MDoiIjtzOjE1OiJpbnN0cmFncmFtX2xpbmsiO3M6MDoiIjtzOjk6InhpbmdfbGluayI7czowOiIiO3M6MTE6InR1bWJscl9saW5rIjtzOjA6IiI7czo3OiJ2a19saW5rIjtzOjA6IiI7czoxNToic291bmRjbG91ZF9saW5rIjtzOjA6IiI7czoxMzoiZHJpYmJibGVfbGluayI7czowOiIiO3M6MTI6InlvdXR1YmVfbGluayI7czowOiIiO3M6MTI6InNwb3RpZnlfbGluayI7czowOiIiO3M6MTI6ImJlaGFuY2VfbGluayI7czowOiIiO3M6MTU6ImRldmlhbnRhcnRfbGluayI7czowOiIiO3M6MjE6ImZvb3Rlcl93aWRnZXRfYm9yZGVycyI7czozOiJvZmYiO3M6MjE6ImZvb3Rlcl93aWRnZXRfcGFkZGluZyI7YTo1OntzOjM6InRvcCI7czoyOiI1MCI7czo1OiJyaWdodCI7czoyOiIyMCI7czo2OiJib3R0b20iO3M6MjoiMjAiO3M6NDoibGVmdCI7czoyOiIyMCI7czo0OiJ1bml0IjtzOjI6InB4Ijt9czoxOToiZm9vdGVyX2NlbnRlcl9hbGlnbiI7czozOiJvZmYiO3M6MjQ6ImZvb3Rlcl93aWRnZXRfdGV4dF9hbGlnbiI7czoxNToibGVmdC1hbGlnbi10ZXh0IjtzOjE1OiJjYXRlZ29yeV9jb2xvcnMiO2E6MTA6e2k6MzU7czo3OiIjMWFkNThlIjtpOjM7czo3OiIjMWFkNThlIjtpOjQ7czo3OiIjMWFkNThlIjtpOjI5O3M6NzoiIzFhZDU4ZSI7aTo3O3M6NzoiIzFhZDU4ZSI7aToyNztzOjc6IiMxYWQ1OGUiO2k6MjtzOjc6IiMxYWQ1OGUiO2k6NjtzOjc6IiMxYWQ1OGUiO2k6NTtzOjc6IiMxYWQ1OGUiO2k6MTtzOjc6IiMxYWQ1OGUiO31zOjE2OiJjYXRlZ29yeV9oZWFkZXJzIjthOjEwOntpOjM1O2E6Mjp7czo1OiJjb2xvciI7czowOiIiO3M6MjoiYmciO3M6MDoiIjt9aTozO2E6Mjp7czo1OiJjb2xvciI7czo3OiIjMWFkNThlIjtzOjI6ImJnIjtzOjg3OiJodHRwOi8vdGhldm91eC5mdWVsdGhlbWVzLm5ldC90cmF2ZWwtZGVtby93cC1jb250ZW50L3VwbG9hZHMvc2l0ZXMvMy8yMDE2LzAyL2NhdHQtMS5qcGciO31pOjQ7YToyOntzOjU6ImNvbG9yIjtzOjc6IiMxYWQ1OGUiO3M6MjoiYmciO3M6ODc6Imh0dHA6Ly90aGV2b3V4LmZ1ZWx0aGVtZXMubmV0L3RyYXZlbC1kZW1vL3dwLWNvbnRlbnQvdXBsb2Fkcy9zaXRlcy8zLzIwMTYvMDIvY2F0dC0xLmpwZyI7fWk6Mjk7YToyOntzOjU6ImNvbG9yIjtzOjA6IiI7czoyOiJiZyI7czowOiIiO31pOjc7YToyOntzOjU6ImNvbG9yIjtzOjc6IiMxYWQ1OGUiO3M6MjoiYmciO3M6ODc6Imh0dHA6Ly90aGV2b3V4LmZ1ZWx0aGVtZXMubmV0L3RyYXZlbC1kZW1vL3dwLWNvbnRlbnQvdXBsb2Fkcy9zaXRlcy8zLzIwMTYvMDIvY2F0dC0xLmpwZyI7fWk6Mjc7YToyOntzOjU6ImNvbG9yIjtzOjA6IiI7czoyOiJiZyI7czo5MjoiaHR0cDovL3RoZXZvdXguZnVlbHRoZW1lcy5uZXQvdHJhdmVsLWRlbW8vd3AtY29udGVudC91cGxvYWRzL3NpdGVzLzMvMjAxNi8wMi9pdGFseV90b3AtMS5qcGciO31pOjI7YToyOntzOjU6ImNvbG9yIjtzOjc6IiMxYWQ1OGUiO3M6MjoiYmciO3M6ODc6Imh0dHA6Ly90aGV2b3V4LmZ1ZWx0aGVtZXMubmV0L3RyYXZlbC1kZW1vL3dwLWNvbnRlbnQvdXBsb2Fkcy9zaXRlcy8zLzIwMTYvMDIvY2F0dC0xLmpwZyI7fWk6NjthOjI6e3M6NToiY29sb3IiO3M6NzoiIzFhZDU4ZSI7czoyOiJiZyI7czo4NzoiaHR0cDovL3RoZXZvdXguZnVlbHRoZW1lcy5uZXQvdHJhdmVsLWRlbW8vd3AtY29udGVudC91cGxvYWRzL3NpdGVzLzMvMjAxNi8wMi9jYXR0LTEuanBnIjt9aTo1O2E6Mjp7czo1OiJjb2xvciI7czo3OiIjMWFkNThlIjtzOjI6ImJnIjtzOjg3OiJodHRwOi8vdGhldm91eC5mdWVsdGhlbWVzLm5ldC90cmF2ZWwtZGVtby93cC1jb250ZW50L3VwbG9hZHMvc2l0ZXMvMy8yMDE2LzAyL2NhdHQtMS5qcGciO31pOjE7YToyOntzOjU6ImNvbG9yIjtzOjc6IiMxYWQ1OGUiO3M6MjoiYmciO3M6ODc6Imh0dHA6Ly90aGV2b3V4LmZ1ZWx0aGVtZXMubmV0L3RyYXZlbC1kZW1vL3dwLWNvbnRlbnQvdXBsb2Fkcy9zaXRlcy8zLzIwMTYvMDIvY2F0dC0xLmpwZyI7fX1zOjEyOiJzaG9wX3NpZGViYXIiO3M6Mjoibm8iO3M6MTc6InByb2R1Y3RzX3Blcl9wYWdlIjtzOjI6IjEyIjtzOjE2OiJwcm9kdWN0c19wZXJfcm93IjtzOjE6IjQiO3M6MTI6ImFjY2VudF9jb2xvciI7czo3OiIjMWFkNThlIjtzOjE2OiJtb2JpbGVpY29uX2NvbG9yIjtzOjc6IiMyMjIyMjIiO3M6MTY6ImhlYWRlcmljb25fY29sb3IiO3M6MDoiIjtzOjE1OiJtZW51X2xpbmtfY29sb3IiO2E6NTp7czo0OiJsaW5rIjtzOjA6IiI7czo1OiJob3ZlciI7czowOiIiO3M6NjoiYWN0aXZlIjtzOjA6IiI7czo3OiJ2aXNpdGVkIjtzOjA6IiI7czo1OiJmb2N1cyI7czowOiIiO31zOjE3OiJ3aWRnZXR0aXRsZV9jb2xvciI7czowOiIiO3M6MTI6ImZvbnRfc3Vic2V0cyI7czo5OiJuby1zdWJzZXQiO3M6MTA6InRpdGxlX3R5cGUiO2E6MTp7czoxMToiZm9udC1mYW1pbHkiO3M6NjoiT3N3YWxkIjt9czo5OiJib2R5X3R5cGUiO2E6Mjp7czoxMDoiZm9udC1jb2xvciI7czowOiIiO3M6MTE6ImZvbnQtZmFtaWx5IjtzOjc6IlBvcHBpbnMiO31zOjE4OiJhcnRpY2xlX3RpdGxlX3R5cGUiO2E6ODp7czo5OiJmb250LXNpemUiO3M6MDoiIjtzOjEwOiJmb250LXN0eWxlIjtzOjA6IiI7czoxMjoiZm9udC12YXJpYW50IjtzOjA6IiI7czoxMToiZm9udC13ZWlnaHQiO3M6MDoiIjtzOjE0OiJsZXR0ZXItc3BhY2luZyI7czowOiIiO3M6MTE6ImxpbmUtaGVpZ2h0IjtzOjA6IiI7czoxNToidGV4dC1kZWNvcmF0aW9uIjtzOjA6IiI7czoxNDoidGV4dC10cmFuc2Zvcm0iO3M6MDoiIjt9czo5OiJtZW51X3R5cGUiO2E6OTp7czoxMToiZm9udC1mYW1pbHkiO3M6MDoiIjtzOjk6ImZvbnQtc2l6ZSI7czowOiIiO3M6MTA6ImZvbnQtc3R5bGUiO3M6MDoiIjtzOjEyOiJmb250LXZhcmlhbnQiO3M6MDoiIjtzOjExOiJmb250LXdlaWdodCI7czowOiIiO3M6MTQ6ImxldHRlci1zcGFjaW5nIjtzOjA6IiI7czoxMToibGluZS1oZWlnaHQiO3M6MDoiIjtzOjE1OiJ0ZXh0LWRlY29yYXRpb24iO3M6MDoiIjtzOjE0OiJ0ZXh0LXRyYW5zZm9ybSI7czowOiIiO31zOjEyOiJzdWJtZW51X3R5cGUiO2E6OTp7czoxMToiZm9udC1mYW1pbHkiO3M6MDoiIjtzOjk6ImZvbnQtc2l6ZSI7czowOiIiO3M6MTA6ImZvbnQtc3R5bGUiO3M6MDoiIjtzOjEyOiJmb250LXZhcmlhbnQiO3M6MDoiIjtzOjExOiJmb250LXdlaWdodCI7czowOiIiO3M6MTQ6ImxldHRlci1zcGFjaW5nIjtzOjA6IiI7czoxMToibGluZS1oZWlnaHQiO3M6MDoiIjtzOjE1OiJ0ZXh0LWRlY29yYXRpb24iO3M6MDoiIjtzOjE0OiJ0ZXh0LXRyYW5zZm9ybSI7czowOiIiO31zOjE3OiJ3aWRnZXRfdGl0bGVfdHlwZSI7czowOiIiO3M6MTA6InR5cGVraXRfaWQiO3M6MDoiIjtzOjEzOiJ0eXBla2l0X2ZvbnRzIjtzOjA6IiI7czo5OiJoZWFkZXJfYmciO3M6MDoiIjtzOjc6Im1lbnVfYmciO2E6Njp7czoxNjoiYmFja2dyb3VuZC1jb2xvciI7czo3OiIjMWFkNThlIjtzOjE3OiJiYWNrZ3JvdW5kLXJlcGVhdCI7czowOiIiO3M6MjE6ImJhY2tncm91bmQtYXR0YWNobWVudCI7czowOiIiO3M6MTk6ImJhY2tncm91bmQtcG9zaXRpb24iO3M6MDoiIjtzOjE1OiJiYWNrZ3JvdW5kLXNpemUiO3M6MDoiIjtzOjE2OiJiYWNrZ3JvdW5kLWltYWdlIjtzOjA6IiI7fXM6MTE6Im1lZ2FtZW51X2JnIjtzOjA6IiI7czo5OiJmb290ZXJfYmciO3M6MDoiIjtzOjEyOiJzdWJmb290ZXJfYmciO3M6MDoiIjtzOjE0OiJ3aWRnZXR0aXRsZV9iZyI7czowOiIiO3M6MTY6ImFkdl9oZWFkZXJzdHlsZTMiO3M6MDoiIjtzOjExOiJhZHZfcG9zdGVuZCI7czowOiIiO3M6MTY6ImFkdl9wb3N0ZW5kX2FqYXgiO3M6MDoiIjtzOjE4OiJhZHZfZ2FsbGVyeV9oZWFkZXIiO3M6MDoiIjtzOjExOiJtYXBfYXBpX2tleSI7czowOiIiO3M6OToiZXh0cmFfY3NzIjtzOjM3OToiaDEsaDIsaDMsaDQsaDUsaDYgew0KICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7DQp9DQouaGVhZGVyIC5oZWFkZXJfdG9wLA0KI2Z1bGwtbWVudSAuZnVsbC1tZW51IHsNCiAgICBib3JkZXI6IG5vbmU7DQp9DQoucG9zdC5zdHlsZTYgLnBvc3QtdGl0bGUgaDUgew0KICAgIGZvbnQtd2VpZ2h0OiA0MDA7DQp9DQoucG9zdC5zdHlsZTcgLnBvc3QtY29udGVudCBwIHsNCiAgICBkaXNwbGF5OiBub25lOw0KfQ0KLnBvc3RzLmJvcmRlciAucG9zdDpsYXN0LW9mLXR5cGUgew0KICAgIGJvcmRlcjogMDsNCiAgICBtYXJnaW46IDA7DQp9DQoucG9zdCAucG9zdC1tZXRhIGEsDQoucG9zdCAucG9zdC1hdXRob3Igew0KICAgIGNvbG9yOiAjYTdhN2E3OyAgIA0KfQ0KfSI7czo2OiI0MDRfYmciO3M6MDoiIjtzOjE2OiJmYWNlYm9va19wYWdlX2lkIjtzOjE1OiIyNTY0MzAwNjExNjY1MzUiO3M6MjI6ImZhY2Vib29rX3BhZ2VfdXNlcm5hbWUiO3M6MTA6ImZ1ZWx0aGVtZXMiO3M6MTU6ImZhY2Vib29rX2FwcF9pZCI7czoxNToiMTE0MDU3MDkyMjYwMzk2IjtzOjE5OiJmYWNlYm9va19hcHBfc2VjcmV0IjtzOjMyOiJiN2U1YWRmNDZkZGJjZjM2NzhjZTM1NzczNGZlNTA4NSI7czoyMDoidHdpdHRlcl9iYXJfdXNlcm5hbWUiO3M6MTA6ImFudGVrc2lsZXIiO3M6MjM6InR3aXR0ZXJfYmFyX2NvbnN1bWVya2V5IjtzOjIwOiJ0MHczSFlWT0RoRkcwbTM0SUZYZyI7czoyNjoidHdpdHRlcl9iYXJfY29uc3VtZXJzZWNyZXQiO3M6NDA6ImxFN24yRDRDRmNpa3pDVUl3RjlKWWo2ZktTa2pKOGxhMW9FbXBZWGsiO3M6MjM6InR3aXR0ZXJfYmFyX2FjY2Vzc3Rva2VuIjtzOjUwOiI2NDQ1Nzc2MS1zTmYzam82a3BlSDFzdjBHQXJ1VkNhaWVBbjBYTkZscnZOWjdyNWFFSSI7czoyOToidHdpdHRlcl9iYXJfYWNjZXNzdG9rZW5zZWNyZXQiO3M6NDE6ImxqQk96RGloR2U5UUIxeTUxYnhta1NrV21jMGZCaHFZYkJkcFRUMVhjIjtzOjEyOiJpbnN0YWdyYW1faWQiO3M6NzoiMTY3MTQ5MiI7czoxODoiaW5zdGFncmFtX3VzZXJuYW1lIjtzOjEwOiJhbnRla3NpbGVyIjtzOjIxOiJpbnN0YWdyYW1fYWNjZXNzdG9rZW4iO3M6NDg6IjE2NzE0OTIuNDQzMzM2ZC5jZDViM2NhMTBlNDY0OTA2YTI4Y2M5OWZmZDQ3NTc2ZiI7czoxMToiZ3BfdXNlcm5hbWUiO3M6MTE6IithbnRla3NpbGVyIjtzOjk6ImdwX2FwaWtleSI7czozOToiQUl6YVN5Q0ROLXg5SURmRG05Mk5UY3Jpcm5uaURPc1pDUm9zRGtRIjtzOjg6InNpZGViYXJzIjthOjE6e2k6MDthOjI6e3M6NToidGl0bGUiO3M6NDoiSG9tZSI7czoyOiJpZCI7czo0OiJob21lIjt9fX0=
+
+------
+Completed AJAX call number: 1
+
+
+------
+Completed AJAX call number: 2
+
+
+------
+Completed AJAX call number: 3
+
+
+------
+Completed AJAX call number: 4
+
+
+------
+Completed AJAX call number: 5
+
+
+------
+Completed AJAX call number: 6
+
+
+------
+Completed AJAX call number: 7
+
+
+------
+Completed AJAX call number: 8
+
+
+------
+Completed AJAX call number: 9
+
+
+------
+Completed AJAX call number: 10
+
+
+------
+Completed AJAX call number: 11
+
+
+------
+Completed AJAX call number: 12
+
+
+------
+Completed AJAX call number: 13
+
+
+------
+Completed AJAX call number: 14
+
+
+---Importing content---
+[WARNING] Could not find the author for "01" (post #2203)
+[WARNING] Could not find the author for "Nikon-School-travel-landscape-CR-new-rep" (post #2204)
+[WARNING] Could not find the author for "02_top" (post #9)
+[WARNING] Could not find the author for "Photography-image" (post #11)
+[WARNING] Could not find the author for "03_top" (post #12)
+[WARNING] Could not find the author for "04" (post #14)
+[WARNING] Could not find the author for "05" (post #2205)
+[WARNING] Could not find the author for "05_top" (post #17)
+[WARNING] Could not find the author for "06" (post #2206)
+[WARNING] Could not find the author for "07" (post #21)
+[WARNING] Could not find the author for "07_top" (post #2207)
+[WARNING] Could not find the author for "08" (post #2208)
+[WARNING] Could not find the author for "09" (post #26)
+[WARNING] Could not find the author for "11" (post #2209)
+[WARNING] Could not find the author for "11_top" (post #30)
+[WARNING] Could not find the post parent for "travel_logo" (post #2210)
+[WARNING] Could not find the author for "travel_logo" (post #2210)
+[WARNING] Could not find the author for "12" (post #34)
+[WARNING] Could not find the author for "13" (post #2211)
+[WARNING] Could not find the author for "13_top" (post #37)
+[WARNING] Could not find the author for "14" (post #2212)
+[WARNING] Could not find the author for "14_top" (post #40)
+[WARNING] Could not find the author for "15" (post #2213)
+[WARNING] Could not find the author for "16" (post #2214)
+[WARNING] Could not find the author for "16_top" (post #45)
+[WARNING] Could not find the author for "17" (post #47)
+[WARNING] Could not find the author for "18" (post #2215)
+[WARNING] Could not find the post parent for "italy_top" (post #51)
+[WARNING] Could not find the author for "italy_top" (post #51)
+[WARNING] Could not find the post parent for "catt" (post #55)
+[WARNING] Could not find the author for "catt" (post #55)
+[WARNING] Could not find the author for "thb_travel6x" (post #62)
+[WARNING] Could not find the author for "thb_travel3x" (post #63)
+[WARNING] Could not find the author for "19" (post #347)
+[WARNING] Could not find the author for "20" (post #2216)
+[WARNING] Could not find the author for "21" (post #349)
+[WARNING] Could not find the author for "22" (post #2217)
+[WARNING] Could not find the author for "23" (post #2218)
+[WARNING] Could not find the author for "24" (post #2219)
+[WARNING] Could not find the author for "25" (post #353)
+[WARNING] Could not find the author for "26" (post #354)
+[WARNING] Could not find the author for "27" (post #2220)
+[WARNING] Could not find the author for "28" (post #357)
+[WARNING] Could not find the author for "Home" (post #2221)
+[WARNING] Could not find the author for "" (post #2222)
+[WARNING] Could not find the author for "" (post #2223)
+[WARNING] Could not find the author for "" (post #2224)
+[WARNING] Could not find the author for "" (post #59)
+[WARNING] Could not find the author for "" (post #2225)
+[WARNING] Could not find the author for "" (post #2226)
+[WARNING] Could not find the author for "Eat Breakfast Erin Heatherton’s Eggs &#038; Avocado" (post #2227)
+[WARNING] Could not find the author for "Comfort Food Lightened Up:  Heathy and Delicious Recipes" (post #337)
+[WARNING] Could not find the author for "Airportag: The Coolest Travel Shirts on the Web" (post #2228)
+[WARNING] Could not find the author for "Dark Chocolate Pistachio Bars are naturally sweetened" (post #346)
+[WARNING] Could not find the author for "29" (post #359)
+[WARNING] Could not find the author for "30" (post #2229)
+[WARNING] Could not find the author for "thb_travel2x" (post #2230)
+[WARNING] Could not find the author for "brazil" (post #2231)
+[WARNING] Could not find the author for "france" (post #2232)
+[WARNING] Could not find the author for "italy" (post #365)
+[WARNING] Could not find the author for "spain" (post #2233)
+[WARNING] Could not find the author for "adventurelove" (post #2234)
+[WARNING] Could not find the author for "foodies" (post #2235)
+[WARNING] Could not find the author for "EVERYBODY WAS WRONG ABOUT BARCELONA" (post #2236)
+[WARNING] Could not find the author for "3 DAYS AT THE MALL OF AMERICA: AWESOME OR AWFUL?" (post #7)
+[WARNING] Could not find the author for "6 SMART WAYS TO PET-PROOF YOUR PET-FRIENDLY VACATION RENTAL" (post #10)
+[WARNING] Could not find the author for "The Genealogy Trip: Tracing Our Roots in Latvia, Sicily, and Scotland" (post #13)
+[WARNING] Could not find the author for "DESIGN STORE AND URBAN GARDENING RESTAURANT ARE COMBINED, AT MITTE&rsquo;S HIDDEN" (post #15)
+[WARNING] Could not find the author for "10 INCREDIBLY CREEPY FACTS ABOUT BANGKOK&rsquo;S &laquo;&nbsp;GHOST TOWER&nbsp;&raquo;" (post #2237)
+[WARNING] Could not find the author for "HOW TO AVOID MOTION SICKNESS WHILE TRAVELING" (post #20)
+[WARNING] Could not find the author for "SEVEN QUIRKY TRAVEL FOR YOUR FUTURE HOME" (post #23)
+[WARNING] Could not find the author for "THE ULTIMATE GIRLS&rsquo; GETAWAY TO KOH LANTA, THAILAND" (post #25)
+[WARNING] Could not find the author for "QUIT FUCKING AROUND AND BUILD YOURSELF A FUCK-OFF FUND" (post #27)
+[WARNING] Could not find the author for "COOLEST TRAVEL HACKS &#8211; TRICKS FOR A SMART TRAVELLER" (post #38)
+[WARNING] Could not find the author for "BEHIND THE SCENES: WHAT IS WORKING REMOTELY REALLY LIKE?" (post #2238)
+[WARNING] Could not find the author for "9 Genius Charts That Let You Skip Cooking Math" (post #2239)
+[WARNING] Could not find the author for "Bleecker Street in Manhattan&rsquo;s Greenwich Village almost any day of the week around lunchtime" (post #66)
+[WARNING] Could not find the author for "Most people know it as a key ingredient in hummus, but the possibilities are nearly limitless" (post #2240)
+[WARNING] Could not find the author for "Not an anchovy lover? We insist you try cooking with anchovy paste before making your final judgement" (post #68)
+[WARNING] Could not find the author for "The Comfort Food Diaries: A Stir Fry Like No Other" (post #2241)
+[WARNING] Could not find the author for "Twice-Cooked Bacon is the  Best Kind of Bacon" (post #2242)
+[WARNING] Could not find the author for "Five Years of Travel: The Best Experiences" (post #358)
+[WARNING] Could not find the author for "Aci Trezza: A Laid-Back Seaside Town in Sicily" (post #360)
+[WARNING] Could not find the author for "RIDING HORSES IN THE URUGUAYAN COUNTRYSIDE: A TALE OF TWO DREAMS" (post #2243)
+[WARNING] Could not find the author for "TRAVEL TIPS: HOW TO PACK YOUR TOILETRIES" (post #35)
+[WARNING] Could not find the author for "VIDEO OF THE DAY: ISTANBUL IN FLOW MOTION" (post #2244)
+[WARNING] Could not find the author for "MILLENIAL TRAVELER 2016: A STUDY IN CONTRADICTIONS" (post #2245)
+[WARNING] Could not find the author for "IN-FLIGHT ESSENTIALS TO MAKE LONG FLIGHTS SUCK LESS" (post #2246)
+
+MAX EXECUTION TIME = 300
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+home : Sidebar does not exist in theme (moving widget to Inactive)
+
+Fuel Themes - Most Shared Posts with Images - Most Shared - Imported to Inactive
+Texte - No Title - Imported to Inactive
+
+Blog Sidebar : 
+
+Rechercher - No Title - Widget already exists
+Articles récents - No Title - Imported
+Commentaires récents - No Title - Imported
+Archives - No Title - Imported
+Catégories - No Title - Imported
+Méta - No Title - Imported
+
+Article Sidebar : 
+
+Texte - No Title - Imported
+
+Article Ajax Sidebar : 
+
+Texte - No Title - Imported
+Fuel Themes - Most Shared Posts with Images - Most Shared - Imported
+
+Category Sidebar : 
+
+Texte - No Title - Imported
+
+Footer Column 1 : 
+
+Texte - No Title - Imported
+
+Footer Column 2 : 
+
+Texte - ABOUT - Imported
+
+Footer Column 3 : 
+
+Fuel Themes - Latest Posts with Images - Latest Posts - Imported
+
+Footer Column 4 : 
+
+Fuel Themes - Featured Video - Featured Video - Imported
+
+
+
+---pt-ocdi/after_import---
+

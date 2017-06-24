@@ -1,0 +1,70 @@
+{
+	"landing": {
+		"name": "Landing",
+		"des": "",
+		"path": "landing",
+		"type":  ["landing","slider"]
+	},
+	"home-minimal": {
+		"name": "Home Minimal",
+		"des": "",
+		"path": "home-minimal",
+		"type": ["home","slider"]
+	},
+	"home-bestselling": {
+		"name": "Home Bestselling",
+		"des": "",
+		"path": "home-bestselling",
+		"type": ["home","Banner"]
+	},
+	"home-collection-masonry": {
+		"name": "Home Collection Masonry",
+		"des": "",
+		"path": "home-collection-masonry",
+		"type": ["home","Metro"]
+	},
+	"home-collection-grid": {
+		"name": "Home Collection Grid",
+		"des": "",
+		"path": "home-collection-grid",
+		"type": ["home","Metro"]
+	},
+	"home-full-screen": {
+		"name": "Home Full Screen Slider",
+		"des": "",
+		"path": "home-full-screen",
+		"type": ["home","Accessories"]
+	},
+	"home-vertical-left": {
+		"name": "Home Vertical Left",
+		"des": "",
+		"path": "home-vertical-left",
+		"type":  ["home","Furniture"]
+	},
+	"home-minimal-filter": {
+		"name": "Home Minimal with Filter",
+		"des": "",
+		"path": "home-minimal-filter",
+		"type":  ["home","Filter"]
+	},	"home-hero": {
+		"name": "Home Hero Slider",
+		"des": "",
+		"path": "home-hero",
+		"type":  ["home","Slider"]
+	},"home-header-transparent": {
+		"name": "Home Header Transparent",
+		"des": "",
+		"path": "home-header-transparent",
+		"type":  ["home","Slider"]
+	},"home-dark-style": {
+		"name": "Home Dark Style",
+		"des": "",
+		"path": "home-dark-style",
+		"type":  ["home","Slider"]
+	},"home-lookbook": {
+		"name": "Home Lookbook",
+		"des": "",
+		"path": "home-lookbook",
+		"type":  ["home","Lookbook"]
+	}
+}

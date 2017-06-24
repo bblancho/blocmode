@@ -1,0 +1,122 @@
+/*** Base ***/
+
+.linen-5 a, .linen-5 a:hover {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+/*** General ***/
+
+.linen-5 .modal-inner {
+  background: #efede7;
+  color: #090909;
+  font-family: 'Lora', serif;
+}
+
+/*** Close Button ***/
+
+.linen-5 .cc-pu-close {
+	right: 0;
+  top: 0;
+  background-color: transparent;
+}
+.linen-5.chch-free-big .cc-pu-close {
+  width: 45px;
+  height: 45px;
+  padding: 12px 0 0 0 !important;
+}
+.linen-5.chch-free-small .cc-pu-close {
+  width: 30px;
+  height: 30px;
+  padding: 5px 8px !important;
+}
+.linen-5 .cc-pu-close i {
+  color: #514b31;
+}
+
+/*** Headers ***/
+
+/*** Primary ***/
+
+.linen-5 .modal-inner h2 {
+  text-transform: none !important;
+  color: #090909 !important;
+  font-weight: 700 !important;
+  font-family: 'Lora', serif !important;
+}
+.linen-5.chch-free-big .modal-inner h2 {
+  font-size: 2.85714em !important;
+  line-height: 1.1em !important;
+  margin-top: 6px !important;
+  margin-bottom: 35px !important;
+}
+.linen-5.chch-free-small .modal-inner h2 {
+	font-size: 2.1em !important;
+  line-height: 1.2em !important;
+  margin: 0.85714em 0 1em 0 !important;
+}
+
+/*** Secondary ***/
+
+.linen-5 .modal-inner h3 {
+  text-transform: none !important;
+  color: #514b31 !important;
+  font-weight: 300 !important;
+  font-family: 'Lora', serif !important;
+}
+.linen-5.chch-free-big .modal-inner h3 {
+  font-size: 1.42857em !important;
+  line-height: 1.5em !important;
+}
+.linen-5.chch-free-small .modal-inner h3 {
+	font-size: 1.4em !important;
+  line-height: 1.3em !important;
+}
+
+/*** Content ***/
+
+.linen-5 .modal-inner p {
+  color: #090909 !important;
+  font-family: 'Lora', serif !important;
+  margin: 1.78571em 0 13px !important;
+  padding: 0!important;
+}
+
+/*** Privacy ***/
+
+.linen-5 .cc-pu-privacy-info a {
+  color: #696969 !important;
+  border-bottom: 1px solid #bfbbaf !important;
+}
+.linen-5 .cc-pu-privacy-section p {
+	margin: 0!important;
+}
+
+/*** Form ***/
+
+.linen-5 .cc-pu-form-control {
+  border: 1px solid #e0e0e0 !important;
+  background-color: #fff !important;
+  font-family: 'Lora', serif !important;
+}
+.linen-5 .cc-pu-smart-form .cc-pu-btn, .linen-5 .cc-pu-smart-form .cc-pu-btn:hover {
+  background: #514b31 !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  font-family: 'Lora', serif !important;
+}
+.m-5 .cc-pu-smart-form .cc-pu-btn.cc-pu-btn-sending .fa,
+.m-5 .cc-pu-smart-form .cc-pu-btn.cc-pu-btn-sending:hover .fa {
+	color: #fff !important;
+}
+.linen-5.pop-up-cc .cc-pu-thank-you {
+  background-color: #514b31;
+  color: #fff;
+}
+.linen-5.pop-up-cc .cc-pu-thank-you:after {
+  border-top: 0;
+  border-bottom: 8px solid #514b31;
+  bottom: auto !important;
+  top: -6px;
+}

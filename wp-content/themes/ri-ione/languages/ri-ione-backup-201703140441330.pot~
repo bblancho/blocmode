@@ -1,0 +1,2615 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-17 14:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:9
+msgid "404"
+msgstr ""
+
+#: 404.php:10
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:12
+msgid "Go To Home"
+msgstr ""
+
+#: comments.php:19
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:19
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:19
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:33
+msgid "<i class=\"ss-navigateleft\"></i> Previous"
+msgstr ""
+
+#: comments.php:34
+msgid "Next <i class=\"ss-navigateright\"></i>"
+msgstr ""
+
+#: comments.php:48
+msgid "Your name*"
+msgstr ""
+
+#: comments.php:49
+msgid "Email*"
+msgstr ""
+
+#: comments.php:50
+msgid "Website"
+msgstr ""
+
+#: comments.php:52
+msgid "Messenger*"
+msgstr ""
+
+#: comments.php:54
+msgid "Post Comment"
+msgstr ""
+
+#: content-grid.php:99 content-search.php:17 functions.php:161
+#: rit-core/post-layout/grid-layout.php:41
+#: rit-core/post-layout/list-title.php:24
+msgid "bookmark"
+msgstr ""
+
+#: content-grid.php:110
+msgid "Continue reading"
+msgstr ""
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:11 content-search.php:28 content-search.php:33 image.php:48
+#: included/theme-function/rit-function.php:409
+msgid "Edit"
+msgstr ""
+
+#: functions.php:77
+msgid "Off Canvas Menu (Mobile Menu)"
+msgstr ""
+
+#: functions.php:78
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:137
+msgid "Featured"
+msgstr ""
+
+#: functions.php:142
+msgctxt "Used before post format."
+msgid "Format"
+msgstr ""
+
+#: functions.php:162
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: functions.php:171
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: functions.php:177 functions.php:185
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: functions.php:180
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: functions.php:188
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: functions.php:199
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#. %s: post title
+#: functions.php:209
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: functions.php:300
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:301
+msgid "collapse child menu"
+msgstr ""
+
+#: functions.php:350
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: functions.php:351
+msgid "Enter password"
+msgstr ""
+
+#: functions.php:351
+msgid "Submit"
+msgstr ""
+
+#: image.php:59
+msgid "Pages:"
+msgstr ""
+
+#: image.php:63
+msgid "Page"
+msgstr ""
+
+#: image.php:71
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:76
+msgid "Next Image"
+msgstr ""
+
+#: search.php:28
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: rit-core/shortcode-blog.php:62 included/templates/pagination.php:12
+msgid ""
+"<i class=\"fa fa-angle-double-left\" aria-hidden=\"true\"></i> NEWER POST "
+msgstr ""
+
+#: rit-core/shortcode-blog.php:67 included/templates/pagination.php:18
+msgid ""
+"OLDER POST <i class=\"fa fa-angle-double-right\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: rit-core/shortcode-demo-box.php:41
+msgid "View Demo"
+msgstr ""
+
+#: rit-core/shortcode-demo-box.php:50
+msgid "Coming soon"
+msgstr ""
+
+#: rit-core/shortcode-demo-box.php:58
+msgid "Hot"
+msgstr ""
+
+#: rit-core/shortcode-demo-box.php:61
+msgid "New"
+msgstr ""
+
+#: rit-core/shortcode-product-categories-banner.php:88
+msgid "0"
+msgstr ""
+
+#: rit-core/shortcode-product-categories-banner.php:92
+msgid " Items"
+msgstr ""
+
+#: rit-core/shortcode-product-categories-banner.php:94
+msgid " Item"
+msgstr ""
+
+#: rit-core/shortcode-product.php:30
+msgid "No Product Found"
+msgstr ""
+
+#: rit-core/shortcode-product.php:46
+msgid "Search for:"
+msgstr ""
+
+#: rit-core/shortcode-product.php:48
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr ""
+
+#: rit-core/shortcode-product.php:50
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: rit-core/shortcode-product.php:51
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: rit-core/shortcode-product.php:60 rit-core/shortcode-product.php:107
+msgid "All"
+msgstr ""
+
+#: rit-core/shortcode-product.php:81 rit-core/shortcode-product.php:81
+msgid "Filter"
+msgstr ""
+
+#: rit-core/shortcode-product.php:100
+msgid "Reset Filter"
+msgstr ""
+
+#: rit-core/shortcode-product.php:108
+msgid "Featured product"
+msgstr ""
+
+#: rit-core/shortcode-product.php:109
+msgid "Onsale product"
+msgstr ""
+
+#: rit-core/shortcode-product.php:110
+msgid "Best Selling"
+msgstr ""
+
+#: rit-core/shortcode-product.php:111
+msgid "Latest product"
+msgstr ""
+
+#: rit-core/shortcode-product.php:112
+msgid "Top rate product"
+msgstr ""
+
+#: rit-core/shortcode-product.php:113
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: rit-core/shortcode-product.php:114
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: rit-core/shortcode-product.php:119
+msgid "Asset type"
+msgstr ""
+
+#: rit-core/shortcode-product.php:144
+msgid "Price"
+msgstr ""
+
+#: rit-core/shortcode-product.php:238
+msgid "Tags"
+msgstr ""
+
+#: rit-core/shortcode-product.php:304
+msgid "Load more"
+msgstr ""
+
+#: rit-core/shortcode-product.php:305
+msgid "No more Load"
+msgstr ""
+
+#: rit-core/shortcode-product.php:307
+msgid "Load more products"
+msgstr ""
+
+#: woocommerce/content-product-related.php:39
+#: woocommerce/content-product.php:55
+#: rit-core/woocommerce/content-product.php:79
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/content-product-related.php:44
+#: woocommerce/content-product.php:60
+#: rit-core/woocommerce/content-product.php:84
+msgid "Low Stock"
+msgstr ""
+
+#: woocommerce/content-product-related.php:53
+#: woocommerce/content-product.php:69
+#: rit-core/woocommerce/content-product.php:93
+msgid "Quick View"
+msgstr ""
+
+#: woocommerce/quick-view.php:9 woocommerce/woo-sidebar-left.php:12
+#: woocommerce/woo-sidebar-right.php:12 woocommerce/cart/mini-cart.php:30
+msgid "Close"
+msgstr ""
+
+#: included/customize/customize.php:10
+msgid "Site Identity"
+msgstr ""
+
+#: included/customize/customize.php:16
+msgid "Logo Options"
+msgstr ""
+
+#: included/customize/customize.php:21
+msgid "Logo"
+msgstr ""
+
+#: included/customize/customize.php:22
+msgid ""
+"Upload Logo Image. <strong>NOTE: Please resize logo before upload. Recommend:"
+" height of logo should 80px</strong>"
+msgstr ""
+
+#: included/customize/customize.php:27
+msgid "Stick Logo"
+msgstr ""
+
+#: included/customize/customize.php:28
+msgid ""
+"Stick Logo for header Logo Stack center. Recommend: height of logo should "
+"60px"
+msgstr ""
+
+#: included/customize/customize.php:33
+msgid "Logo Top spacing"
+msgstr ""
+
+#: included/customize/customize.php:34
+msgid "Fill Logo Top spacing. Note: without (px)"
+msgstr ""
+
+#: included/customize/customize.php:42
+msgid "Logo Bottom spacing"
+msgstr ""
+
+#: included/customize/customize.php:43
+msgid "Fill Logo Bottom spacing. Note: without (px)"
+msgstr ""
+
+#: included/customize/customize.php:53 included/customize/customize.php:1483
+msgid "General Options"
+msgstr ""
+
+#: included/customize/customize.php:59
+msgid "Page Size Options"
+msgstr ""
+
+#: included/customize/customize.php:64
+msgid "Enable Page Full Width"
+msgstr ""
+
+#: included/customize/customize.php:73 included/meta-boxes/meta-boxes.php:105
+msgid "Page Max Width"
+msgstr ""
+
+#: included/customize/customize.php:75
+msgid ""
+"Max width layout of page. If not set, it will apply default value is 1170"
+msgstr ""
+
+#: included/customize/customize.php:83
+msgid "Custom Css/js"
+msgstr ""
+
+#: included/customize/customize.php:88
+msgid "Custom CSS"
+msgstr ""
+
+#: included/customize/customize.php:93
+msgid "Custom JS"
+msgstr ""
+
+#: included/customize/customize.php:99
+msgid "Export/Import"
+msgstr ""
+
+#: included/customize/customize.php:109 included/customize/customize.php:472
+#: included/meta-boxes/meta-boxes.php:24 included/meta-boxes/meta-boxes.php:446
+#: included/meta-boxes/meta-boxes.php:451
+msgid "Sidebar Options"
+msgstr ""
+
+#: included/customize/customize.php:115
+msgid "Default Sidebar Config"
+msgstr ""
+
+#: included/customize/customize.php:119
+msgid "No Sidebar"
+msgstr ""
+
+#: included/customize/customize.php:120 included/meta-boxes/meta-boxes.php:465
+msgid "Left Sidebar"
+msgstr ""
+
+#: included/customize/customize.php:121 included/meta-boxes/meta-boxes.php:470
+msgid "Right Sidebar"
+msgstr ""
+
+#: included/customize/customize.php:122
+msgid "Both Sidebar"
+msgstr ""
+
+#: included/customize/customize.php:130
+msgid "Default Left Sidebar"
+msgstr ""
+
+#: included/customize/customize.php:140
+msgid "Default Right Sidebar"
+msgstr ""
+
+#: included/customize/customize.php:151 included/meta-boxes/meta-boxes.php:111
+msgid "Header Options"
+msgstr ""
+
+#: included/customize/customize.php:157
+msgid "Enable Top Header"
+msgstr ""
+
+#: included/customize/customize.php:158
+msgid "Check this option if want top header display at all page."
+msgstr ""
+
+#: included/customize/customize.php:163 included/meta-boxes/meta-boxes.php:127
+msgid "Header Layout"
+msgstr ""
+
+#: included/customize/customize.php:180 included/meta-boxes/meta-boxes.php:143
+msgid "Enable Header Transparency"
+msgstr ""
+
+#: included/customize/customize.php:181
+msgid "Header will be override slider and content."
+msgstr ""
+
+#: included/customize/customize.php:186
+msgid "Header Size Options"
+msgstr ""
+
+#: included/customize/customize.php:191 included/meta-boxes/meta-boxes.php:150
+msgid "100% Header Width"
+msgstr ""
+
+#: included/customize/customize.php:192 included/meta-boxes/meta-boxes.php:154
+#, php-format
+msgid ""
+"Check this box to set the header to 100% of the browser width. Uncheck to "
+"follow the site width."
+msgstr ""
+
+#: included/customize/customize.php:200
+msgid "Header Height"
+msgstr ""
+
+#: included/customize/customize.php:201
+msgid ""
+"The height of <strong>\"Header\"</strong>. <strong>Note: without (px)"
+"</strong>"
+msgstr ""
+
+#: included/customize/customize.php:209
+msgid "Header Sticky Height"
+msgstr ""
+
+#: included/customize/customize.php:210
+msgid "The height of Header when sticky"
+msgstr ""
+
+#: included/customize/customize.php:218
+msgid "Header Mobile Height"
+msgstr ""
+
+#: included/customize/customize.php:219
+msgid "The height of Header in mobile"
+msgstr ""
+
+#: included/customize/customize.php:227
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: included/customize/customize.php:228
+msgid "Header always on top"
+msgstr ""
+
+#: included/customize/customize.php:236 included/meta-boxes/meta-boxes.php:157
+msgid "Footer Options"
+msgstr ""
+
+#: included/customize/customize.php:242
+msgid "Enable Sticky Footer"
+msgstr ""
+
+#: included/customize/customize.php:243
+msgid "If check, footer always on bottom"
+msgstr ""
+
+#: included/customize/customize.php:248
+msgid "Enable Top Footer"
+msgstr ""
+
+#: included/customize/customize.php:249
+msgid "If check, top footer will be show"
+msgstr ""
+
+#: included/customize/customize.php:254
+msgid "Disable Main Footer"
+msgstr ""
+
+#: included/customize/customize.php:260 included/meta-boxes/meta-boxes.php:183
+msgid "Footer Layout"
+msgstr ""
+
+#: included/customize/customize.php:274
+msgid "Enable Copyright"
+msgstr ""
+
+#: included/customize/customize.php:283
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: included/customize/customize.php:290
+msgid "Blog Options"
+msgstr ""
+
+#: included/customize/customize.php:296
+msgid "Category page layout"
+msgstr ""
+
+#: included/customize/customize.php:301
+msgid "Columns"
+msgstr ""
+
+#: included/customize/customize.php:305
+msgid "1 Columns"
+msgstr ""
+
+#: included/customize/customize.php:306
+msgid "2 Columns"
+msgstr ""
+
+#: included/customize/customize.php:307
+msgid "3 Columns"
+msgstr ""
+
+#: included/customize/customize.php:308
+msgid "4 Columns"
+msgstr ""
+
+#: included/customize/customize.php:309
+msgid "5 Columns"
+msgstr ""
+
+#: included/customize/customize.php:310
+msgid "6 Columns"
+msgstr ""
+
+#: included/customize/customize.php:318
+msgid "Excerpt Length"
+msgstr ""
+
+#: included/customize/customize.php:327
+msgid "Image size"
+msgstr ""
+
+#: included/customize/customize.php:328
+msgid ""
+"Select image size display in categories page, archive page, for display "
+"better and loading faster"
+msgstr ""
+
+#: included/customize/customize.php:331
+msgid "Thumbnail"
+msgstr ""
+
+#: included/customize/customize.php:332
+msgid "Medium"
+msgstr ""
+
+#: included/customize/customize.php:333
+msgid "Large"
+msgstr ""
+
+#: included/customize/customize.php:334
+msgid "Original"
+msgstr ""
+
+#: included/customize/customize.php:335
+msgid "Custom size"
+msgstr ""
+
+#: included/customize/customize.php:343
+msgid "Image Width"
+msgstr ""
+
+#: included/customize/customize.php:353
+msgid "Image Height"
+msgstr ""
+
+#: included/customize/customize.php:363
+msgid "Hide Read more"
+msgstr ""
+
+#: included/customize/customize.php:364
+msgid "Check this box to hide read more button."
+msgstr ""
+
+#: included/customize/customize.php:369
+msgid "Detail post options"
+msgstr ""
+
+#: included/customize/customize.php:374
+msgid "Hide Author info"
+msgstr ""
+
+#: included/customize/customize.php:375
+msgid "Check this box to hide the author info box on the detail page."
+msgstr ""
+
+#: included/customize/customize.php:380
+msgid "Hide Social Sharing"
+msgstr ""
+
+#: included/customize/customize.php:381
+msgid "Check this box to hide social sharing icons on the detail page."
+msgstr ""
+
+#: included/customize/customize.php:386
+msgid "Hide related articles"
+msgstr ""
+
+#: included/customize/customize.php:387
+msgid "Check this box to hide related articles on the detail page."
+msgstr ""
+
+#: included/customize/customize.php:392
+msgid "Shop Page Options"
+msgstr ""
+
+#: included/customize/customize.php:398
+msgid "Slider Cover"
+msgstr ""
+
+#: included/customize/customize.php:403
+msgid "Slider Cover Shortcode"
+msgstr ""
+
+#: included/customize/customize.php:404
+msgid "Slider Cover Shortcode for shop page"
+msgstr ""
+
+#: included/customize/customize.php:409 included/meta-boxes/meta-boxes.php:40
+msgid "Layout Options"
+msgstr ""
+
+#: included/customize/customize.php:414
+msgid "Enable Catalog Mode"
+msgstr ""
+
+#: included/customize/customize.php:415
+msgid "Hide Cart Icon, Add to cart button at all page."
+msgstr ""
+
+#: included/customize/customize.php:420
+msgid "Hide cart"
+msgstr ""
+
+#: included/customize/customize.php:421
+msgid "Hide cart button in shop page"
+msgstr ""
+
+#: included/customize/customize.php:427
+msgid "Disable Quick View"
+msgstr ""
+
+#: included/customize/customize.php:428
+msgid "If check, quick view will be disable"
+msgstr ""
+
+#: included/customize/customize.php:434
+msgid "Hide Stock Label"
+msgstr ""
+
+#: included/customize/customize.php:435
+msgid "If check, Stock status label will hide"
+msgstr ""
+
+#: included/customize/customize.php:441
+msgid "Default product Layout"
+msgstr ""
+
+#: included/customize/customize.php:445
+#: included/widgets/testimonials-widget.php:199
+msgid "Grid"
+msgstr ""
+
+#: included/customize/customize.php:446
+msgid "List"
+msgstr ""
+
+#: included/customize/customize.php:454 included/customize/customize.php:549
+msgid "Columns min width"
+msgstr ""
+
+#: included/customize/customize.php:455
+msgid "Min width of column, help make smart layout."
+msgstr ""
+
+#: included/customize/customize.php:463
+msgid "Default number products display"
+msgstr ""
+
+#: included/customize/customize.php:477
+msgid "Sidebar Layout Options"
+msgstr ""
+
+#: included/customize/customize.php:491
+msgid "Product Sidebar"
+msgstr ""
+
+#: included/customize/customize.php:503
+msgid "Single Product Options"
+msgstr ""
+
+#: included/customize/customize.php:509
+msgid "Layout"
+msgstr ""
+
+#: included/customize/customize.php:514 included/meta-boxes/meta-boxes.php:19
+msgid "Layout Single Product"
+msgstr ""
+
+#: included/customize/customize.php:518 included/meta-boxes/meta-boxes.php:30
+msgid "Vertical Gallery"
+msgstr ""
+
+#: included/customize/customize.php:519 included/meta-boxes/meta-boxes.php:29
+msgid "Horizontal Gallery"
+msgstr ""
+
+#: included/customize/customize.php:520 included/meta-boxes/meta-boxes.php:31
+#: included/widgets/testimonials-widget.php:200
+msgid "Carousel"
+msgstr ""
+
+#: included/customize/customize.php:521 included/meta-boxes/meta-boxes.php:32
+msgid "Sticky"
+msgstr ""
+
+#: included/customize/customize.php:529
+msgid "Disable Zoom"
+msgstr ""
+
+#: included/customize/customize.php:530
+msgid "Disable zoom feature if you don't use it"
+msgstr ""
+
+#: included/customize/customize.php:535
+msgid "Related Products Options"
+msgstr ""
+
+#: included/customize/customize.php:540
+msgid "Enable slider related products"
+msgstr ""
+
+#: included/customize/customize.php:541
+msgid "Related product block display like carousel"
+msgstr ""
+
+#: included/customize/customize.php:550
+msgid "Min width of product related item"
+msgstr ""
+
+#: included/customize/customize.php:559
+msgid "Columns product related"
+msgstr ""
+
+#: included/customize/customize.php:569
+msgid "Number products related"
+msgstr ""
+
+#: included/customize/customize.php:570
+msgid "Total products related display"
+msgstr ""
+
+#: included/customize/customize.php:578
+msgid "Font Family Options"
+msgstr ""
+
+#: included/customize/customize.php:585 included/customize/customize.php:590
+msgid "Body Font"
+msgstr ""
+
+#: included/customize/customize.php:594 included/customize/customize.php:647
+msgid "Standard"
+msgstr ""
+
+#: included/customize/customize.php:595 included/customize/customize.php:648
+msgid "Google"
+msgstr ""
+
+#: included/customize/customize.php:603
+msgid "Body Standard Font"
+msgstr ""
+
+#: included/customize/customize.php:607 included/customize/customize.php:660
+msgid "Arial"
+msgstr ""
+
+#: included/customize/customize.php:608 included/customize/customize.php:661
+msgid "Courier New"
+msgstr ""
+
+#: included/customize/customize.php:609 included/customize/customize.php:662
+msgid "Georgia"
+msgstr ""
+
+#: included/customize/customize.php:610 included/customize/customize.php:663
+msgid "Helvetica"
+msgstr ""
+
+#: included/customize/customize.php:611 included/customize/customize.php:664
+msgid "Lucida Sans"
+msgstr ""
+
+#: included/customize/customize.php:612 included/customize/customize.php:665
+msgid "Lucida Sans Unicode"
+msgstr ""
+
+#: included/customize/customize.php:613 included/customize/customize.php:666
+msgid "Myriad Pro"
+msgstr ""
+
+#: included/customize/customize.php:614 included/customize/customize.php:667
+msgid "Palatino Linotype"
+msgstr ""
+
+#: included/customize/customize.php:615 included/customize/customize.php:668
+msgid "Tahoma"
+msgstr ""
+
+#: included/customize/customize.php:616 included/customize/customize.php:669
+msgid "Times New Roman"
+msgstr ""
+
+#: included/customize/customize.php:617 included/customize/customize.php:670
+msgid "Trebuchet MS"
+msgstr ""
+
+#: included/customize/customize.php:618 included/customize/customize.php:671
+msgid "Verdana"
+msgstr ""
+
+#: included/customize/customize.php:627
+msgid "Body Google Font"
+msgstr ""
+
+#: included/customize/customize.php:637 included/customize/customize.php:643
+msgid "Main Font"
+msgstr ""
+
+#: included/customize/customize.php:656
+msgid "Main Standard Font"
+msgstr ""
+
+#: included/customize/customize.php:680
+msgid "Main Google Font"
+msgstr ""
+
+#: included/customize/customize.php:691
+msgid "Font Size Options"
+msgstr ""
+
+#: included/customize/customize.php:698
+msgid "General"
+msgstr ""
+
+#: included/customize/customize.php:703
+msgid "Body Font Size"
+msgstr ""
+
+#: included/customize/customize.php:704
+msgid "Font size of body. <strong>Note: Excluding \"px\" after value</strong>"
+msgstr ""
+
+#: included/customize/customize.php:712
+msgid "Body Font Size on Mobile"
+msgstr ""
+
+#: included/customize/customize.php:713
+msgid ""
+"Font size of body on Mobile/Table devices. <strong>Note: Excluding \"px\" "
+"after value</strong>"
+msgstr ""
+
+#: included/customize/customize.php:721
+msgid "Body Font Line Height"
+msgstr ""
+
+#: included/customize/customize.php:722
+msgid ""
+"Line Height font of body. <strong>Note: Excluding \"px\" after value</strong>"
+msgstr ""
+
+#: included/customize/customize.php:730
+msgid "Menu Font Size"
+msgstr ""
+
+#: included/customize/customize.php:731
+msgid ""
+"Font size of font of body. <strong>Note: Excluding \"px\" after "
+"value</strong>"
+msgstr ""
+
+#: included/customize/customize.php:739
+msgid "Font Size Block Title"
+msgstr ""
+
+#: included/customize/customize.php:740
+msgid "Font size of title block, display in home page"
+msgstr ""
+
+#: included/customize/customize.php:748
+msgid "Font Size Title Widget"
+msgstr ""
+
+#: included/customize/customize.php:749
+msgid "Font size of title widget, and title block of single post."
+msgstr ""
+
+#: included/customize/customize.php:757
+msgid "Font Size Of Woocommerce"
+msgstr ""
+
+#: included/customize/customize.php:762
+msgid "Font Size Title Widget of Woo Page"
+msgstr ""
+
+#: included/customize/customize.php:763
+msgid "Font size of title widget on woocommerce page."
+msgstr ""
+
+#: included/customize/customize.php:771
+msgid "Font Size Product name"
+msgstr ""
+
+#: included/customize/customize.php:772
+msgid "Font size of product name in shop page, grid/list layout."
+msgstr ""
+
+#: included/customize/customize.php:780
+msgid "Font Size Single Product name"
+msgstr ""
+
+#: included/customize/customize.php:781
+msgid "Font size of product name in Detail product/quick view."
+msgstr ""
+
+#: included/customize/customize.php:789 included/customize/customize.php:798
+msgid "Font Size Price of Product"
+msgstr ""
+
+#: included/customize/customize.php:790 included/customize/customize.php:799
+msgid "Font size of price in shop page, grid/list layout."
+msgstr ""
+
+#: included/customize/customize.php:807
+msgid "Font Size Of Post"
+msgstr ""
+
+#: included/customize/customize.php:812
+msgid "Font size of title post"
+msgstr ""
+
+#: included/customize/customize.php:813
+msgid "Font size of title post in category, archive, page and recent post"
+msgstr ""
+
+#: included/customize/customize.php:821
+msgid "Font size of title single post."
+msgstr ""
+
+#: included/customize/customize.php:822
+msgid "Font size title single post"
+msgstr ""
+
+#: included/customize/customize.php:830
+msgid "Font size of title post sidebar."
+msgstr ""
+
+#: included/customize/customize.php:831
+msgid "Font size title of post at sidebar and related"
+msgstr ""
+
+#: included/customize/customize.php:839 included/customize/customize.php:853
+msgid "Font Size Footer"
+msgstr ""
+
+#: included/customize/customize.php:844
+msgid "Font Size Title Widget Footer"
+msgstr ""
+
+#: included/customize/customize.php:845
+msgid "Font size of title widget in footer."
+msgstr ""
+
+#: included/customize/customize.php:854
+msgid "Font size of footer."
+msgstr ""
+
+#: included/customize/customize.php:862
+msgid "Font Size Heading"
+msgstr ""
+
+#: included/customize/customize.php:867
+msgid "Font Size h1"
+msgstr ""
+
+#: included/customize/customize.php:868
+msgid ""
+"Fontsize of tag \"h1\". <strong>Note: Excluding \"px\" after value</strong>"
+msgstr ""
+
+#: included/customize/customize.php:876
+msgid "Font Size h2"
+msgstr ""
+
+#: included/customize/customize.php:877
+msgid ""
+"Fontsize of tag \"h2\". <strong>Note: Excluding \"px\" after value</strong>"
+msgstr ""
+
+#: included/customize/customize.php:885
+msgid "Font Size h3"
+msgstr ""
+
+#: included/customize/customize.php:886
+msgid ""
+"Fontsize of tag \"h3\". <strong>Note: Excluding \"px\" after value</strong>"
+msgstr ""
+
+#: included/customize/customize.php:894
+msgid "Font Size h4"
+msgstr ""
+
+#: included/customize/customize.php:895
+msgid ""
+"Fontsize of tag \"h4\". <strong>Note: Excluding \"px\" after value</strong>"
+msgstr ""
+
+#: included/customize/customize.php:903
+msgid "Font Size h5"
+msgstr ""
+
+#: included/customize/customize.php:904
+msgid ""
+"Fontsize of tag \"h5\". <strong>Note: Excluding \"px\" after value</strong>"
+msgstr ""
+
+#: included/customize/customize.php:912
+msgid "Font Size h6"
+msgstr ""
+
+#: included/customize/customize.php:913
+msgid ""
+"Fontsize of tag \"h6\". <strong>Note: Excluding \"px\" after value</strong>"
+msgstr ""
+
+#: included/customize/customize.php:922
+msgid "General Color"
+msgstr ""
+
+#: included/customize/customize.php:929
+msgid "Enable Dark style"
+msgstr ""
+
+#: included/customize/customize.php:930
+msgid "If check, dark style will be use, and override some color options."
+msgstr ""
+
+#: included/customize/customize.php:935
+msgid "Primary Color"
+msgstr ""
+
+#: included/customize/customize.php:936 included/customize/customize.php:945
+msgid "Color use some special location."
+msgstr ""
+
+#: included/customize/customize.php:944
+msgid "Second Color"
+msgstr ""
+
+#: included/customize/customize.php:953
+msgid "Accent Color"
+msgstr ""
+
+#: included/customize/customize.php:961
+msgid "Second Accent Color"
+msgstr ""
+
+#: included/customize/customize.php:963
+msgid "Apply at some special block, like Post information of single post."
+msgstr ""
+
+#: included/customize/customize.php:970 included/customize/customize.php:1153
+msgid "Border Color"
+msgstr ""
+
+#: included/customize/customize.php:978
+msgid "Button Color Options"
+msgstr ""
+
+#: included/customize/customize.php:985
+msgid "Button Default Options"
+msgstr ""
+
+#: included/customize/customize.php:990
+msgid "Text Color Button"
+msgstr ""
+
+#: included/customize/customize.php:998
+msgid "Text Color Button Hover"
+msgstr ""
+
+#: included/customize/customize.php:1006
+msgid "Background Button"
+msgstr ""
+
+#: included/customize/customize.php:1014
+msgid "Background Button Hover"
+msgstr ""
+
+#: included/customize/customize.php:1022
+msgid "Button Light style"
+msgstr ""
+
+#: included/customize/customize.php:1027 included/customize/customize.php:1064
+#: included/customize/customize.php:1200 included/customize/customize.php:1360
+#: included/customize/customize.php:1842 included/customize/customize.php:1887
+#: included/customize/customize.php:1925
+msgid "Text Color"
+msgstr ""
+
+#: included/customize/customize.php:1035 included/customize/customize.php:1072
+msgid "Text Color Hover"
+msgstr ""
+
+#: included/customize/customize.php:1043 included/customize/customize.php:1080
+msgid "Background"
+msgstr ""
+
+#: included/customize/customize.php:1051 included/customize/customize.php:1088
+msgid "Background Hover"
+msgstr ""
+
+#: included/customize/customize.php:1059
+msgid "Button Load More style"
+msgstr ""
+
+#: included/customize/customize.php:1096
+msgid "Header"
+msgstr ""
+
+#: included/customize/customize.php:1103
+msgid "Header color"
+msgstr ""
+
+#: included/customize/customize.php:1108 included/customize/customize.php:1179
+#: included/customize/customize.php:1227 included/customize/customize.php:1834
+#: included/customize/customize.php:1871 included/customize/customize.php:1916
+msgid "Background Color"
+msgstr ""
+
+#: included/customize/customize.php:1116 included/customize/customize.php:1187
+#: included/customize/customize.php:1235
+msgid "Background Opacity"
+msgstr ""
+
+#: included/customize/customize.php:1129
+msgid "Text color"
+msgstr ""
+
+#: included/customize/customize.php:1137
+msgid "Link color"
+msgstr ""
+
+#: included/customize/customize.php:1145
+msgid "Link Hover color"
+msgstr ""
+
+#: included/customize/customize.php:1161
+msgid "Border Opacity"
+msgstr ""
+
+#: included/customize/customize.php:1174
+msgid "Top header color"
+msgstr ""
+
+#: included/customize/customize.php:1207 included/customize/customize.php:1368
+#: included/customize/customize.php:1850 included/customize/customize.php:1895
+#: included/customize/customize.php:1933
+msgid "Link Color"
+msgstr ""
+
+#: included/customize/customize.php:1214
+msgid "Link Color Hover"
+msgstr ""
+
+#: included/customize/customize.php:1222
+msgid "Main header color"
+msgstr ""
+
+#: included/customize/customize.php:1248
+msgid "Background Inner Color"
+msgstr ""
+
+#: included/customize/customize.php:1256
+msgid "Background Inner Opacity"
+msgstr ""
+
+#: included/customize/customize.php:1269
+msgid "Sticky header color"
+msgstr ""
+
+#: included/customize/customize.php:1274
+msgid "Background Sticky Color"
+msgstr ""
+
+#: included/customize/customize.php:1282
+msgid "Background Sticky Opacity"
+msgstr ""
+
+#: included/customize/customize.php:1296
+msgid "Body"
+msgstr ""
+
+#: included/customize/customize.php:1303
+msgid "Body Background Image"
+msgstr ""
+
+#: included/customize/customize.php:1309
+msgid "Background Repeat"
+msgstr ""
+
+#: included/customize/customize.php:1313
+msgid "no-repeat"
+msgstr ""
+
+#: included/customize/customize.php:1314
+msgid "repeat"
+msgstr ""
+
+#: included/customize/customize.php:1315
+msgid "repeat-x"
+msgstr ""
+
+#: included/customize/customize.php:1316
+msgid "repeat-y"
+msgstr ""
+
+#: included/customize/customize.php:1324
+msgid "Background Size"
+msgstr ""
+
+#: included/customize/customize.php:1328
+msgid "contain"
+msgstr ""
+
+#: included/customize/customize.php:1329
+msgid "auto"
+msgstr ""
+
+#: included/customize/customize.php:1330
+msgid "cover"
+msgstr ""
+
+#: included/customize/customize.php:1338
+msgid "Background Attachment"
+msgstr ""
+
+#: included/customize/customize.php:1342
+msgid "local"
+msgstr ""
+
+#: included/customize/customize.php:1343
+msgid "fixed"
+msgstr ""
+
+#: included/customize/customize.php:1344
+msgid "scroll"
+msgstr ""
+
+#: included/customize/customize.php:1352
+msgid "Body Background Color"
+msgstr ""
+
+#: included/customize/customize.php:1376 included/customize/customize.php:1858
+#: included/customize/customize.php:1903 included/customize/customize.php:1941
+msgid "Link Hover Color"
+msgstr ""
+
+#: included/customize/customize.php:1384
+msgid "H1 Text Color"
+msgstr ""
+
+#: included/customize/customize.php:1392
+msgid "H2 Text Color"
+msgstr ""
+
+#: included/customize/customize.php:1400
+msgid "H3 Text Color"
+msgstr ""
+
+#: included/customize/customize.php:1408
+msgid "H4 Text Color"
+msgstr ""
+
+#: included/customize/customize.php:1416
+msgid "H5 Text Color"
+msgstr ""
+
+#: included/customize/customize.php:1424
+msgid "H6 Text Color"
+msgstr ""
+
+#: included/customize/customize.php:1433
+msgid "Blog"
+msgstr ""
+
+#: included/customize/customize.php:1440 included/customize/customize.php:1583
+msgid "Color title"
+msgstr ""
+
+#: included/customize/customize.php:1441 included/customize/customize.php:1450
+#: included/customize/customize.php:1593
+msgid "Apply for blog page, except detail page"
+msgstr ""
+
+#: included/customize/customize.php:1449 included/customize/customize.php:1592
+msgid "Color title hover"
+msgstr ""
+
+#: included/customize/customize.php:1458
+msgid "Color Title Detail"
+msgstr ""
+
+#: included/customize/customize.php:1459
+msgid "Apply for detail blog page"
+msgstr ""
+
+#: included/customize/customize.php:1467
+msgid "Color Date Post"
+msgstr ""
+
+#: included/customize/customize.php:1468
+msgid "Apply for blog"
+msgstr ""
+
+#: included/customize/customize.php:1476
+#: included/theme-function/rit-function.php:484
+msgid "Woocommerce"
+msgstr ""
+
+#: included/customize/customize.php:1488
+msgid "Color Sale label"
+msgstr ""
+
+#: included/customize/customize.php:1489 included/customize/customize.php:1498
+#: included/customize/customize.php:1507 included/customize/customize.php:1516
+#: included/customize/customize.php:1525 included/customize/customize.php:1534
+msgid "Apply all page"
+msgstr ""
+
+#: included/customize/customize.php:1497
+msgid "Background Sale label"
+msgstr ""
+
+#: included/customize/customize.php:1506
+msgid "Color Quick view"
+msgstr ""
+
+#: included/customize/customize.php:1515
+msgid "Background Quick view"
+msgstr ""
+
+#: included/customize/customize.php:1524
+msgid "Color Quick view hover"
+msgstr ""
+
+#: included/customize/customize.php:1533
+msgid "Background Quick view hover"
+msgstr ""
+
+#: included/customize/customize.php:1542
+msgid "Color Add to Cart"
+msgstr ""
+
+#: included/customize/customize.php:1543
+msgid "Color of add to cart button. Apply all page"
+msgstr ""
+
+#: included/customize/customize.php:1551
+msgid "Background Add to Cart"
+msgstr ""
+
+#: included/customize/customize.php:1552
+msgid "Background of add to cart button. Apply all page"
+msgstr ""
+
+#: included/customize/customize.php:1560
+msgid "Color Add to Cart hover"
+msgstr ""
+
+#: included/customize/customize.php:1561
+msgid "Color of add to cart button when hover. Apply all page"
+msgstr ""
+
+#: included/customize/customize.php:1569
+msgid "Background Add to Cart hover"
+msgstr ""
+
+#: included/customize/customize.php:1570
+msgid "Background of add to cart button when hover. Apply all page"
+msgstr ""
+
+#: included/customize/customize.php:1578
+msgid "Shop page"
+msgstr ""
+
+#: included/customize/customize.php:1584 included/customize/customize.php:1620
+#: included/customize/customize.php:1629 included/customize/customize.php:1638
+#: included/customize/customize.php:1647 included/customize/customize.php:1656
+msgid "Apply for shop page"
+msgstr ""
+
+#: included/customize/customize.php:1601 included/customize/customize.php:1687
+msgid "Price Color"
+msgstr ""
+
+#: included/customize/customize.php:1602 included/customize/customize.php:1688
+msgid "Color of price"
+msgstr ""
+
+#: included/customize/customize.php:1610 included/customize/customize.php:1696
+msgid "Regular price color"
+msgstr ""
+
+#: included/customize/customize.php:1611
+msgid "Apply for  shop page"
+msgstr ""
+
+#: included/customize/customize.php:1619 included/customize/customize.php:1705
+msgid "Sale Price Color"
+msgstr ""
+
+#: included/customize/customize.php:1628
+msgid "Low stock label color"
+msgstr ""
+
+#: included/customize/customize.php:1637
+msgid "Low stock label background"
+msgstr ""
+
+#: included/customize/customize.php:1646
+msgid "Out of stock label color"
+msgstr ""
+
+#: included/customize/customize.php:1655
+msgid "Out of stock label background"
+msgstr ""
+
+#: included/customize/customize.php:1664
+msgid "Single Product"
+msgstr ""
+
+#: included/customize/customize.php:1669
+msgid "Product name"
+msgstr ""
+
+#: included/customize/customize.php:1670
+msgid "Apply for product name of Single Product"
+msgstr ""
+
+#: included/customize/customize.php:1678
+msgid "Background product block"
+msgstr ""
+
+#: included/customize/customize.php:1679
+msgid "Background for Single Product block"
+msgstr ""
+
+#: included/customize/customize.php:1697 included/customize/customize.php:1706
+#: included/customize/customize.php:1715 included/customize/customize.php:1724
+#: included/customize/customize.php:1733 included/customize/customize.php:1742
+msgid "Apply for single product"
+msgstr ""
+
+#: included/customize/customize.php:1714
+msgid "Stock label color"
+msgstr ""
+
+#: included/customize/customize.php:1723
+msgid "Stock label border"
+msgstr ""
+
+#: included/customize/customize.php:1732
+msgid "Out stock label color"
+msgstr ""
+
+#: included/customize/customize.php:1741
+msgid "Out stock label border"
+msgstr ""
+
+#: included/customize/customize.php:1750
+msgid "Navigation"
+msgstr ""
+
+#: included/customize/customize.php:1751
+msgid ""
+"Not apply if you use Mega menu or use Menu transparent style. If you use "
+"Mega menu, please change it in Mega menu plugin options."
+msgstr ""
+
+#: included/customize/customize.php:1757
+msgid "Nav Background Color"
+msgstr ""
+
+#: included/customize/customize.php:1765
+msgid "Nav Text Color"
+msgstr ""
+
+#: included/customize/customize.php:1773
+msgid "Nav Link Color"
+msgstr ""
+
+#: included/customize/customize.php:1781
+msgid "Nav Link Hover Color"
+msgstr ""
+
+#: included/customize/customize.php:1789
+msgid "Nav Drop Down Background Color"
+msgstr ""
+
+#: included/customize/customize.php:1797
+msgid "Nav Drop Down Background Color Hover"
+msgstr ""
+
+#: included/customize/customize.php:1805
+msgid "Nav Drop Down Link Color"
+msgstr ""
+
+#: included/customize/customize.php:1813
+msgid "Nav Drop Down Link Hover Color"
+msgstr ""
+
+#: included/customize/customize.php:1822
+msgid "Footer"
+msgstr ""
+
+#: included/customize/customize.php:1829
+msgid "Top Footer Color"
+msgstr ""
+
+#: included/customize/customize.php:1866
+msgid "Main Footer Color"
+msgstr ""
+
+#: included/customize/customize.php:1879
+msgid "Title Widget Color"
+msgstr ""
+
+#: included/customize/customize.php:1911
+msgid "Bottom Footer Color"
+msgstr ""
+
+#: included/customize/customize.php:1952 included/meta-boxes/meta-boxes.php:225
+msgid "Color Options"
+msgstr ""
+
+#: included/customize/customize.php:1957
+msgid "Woocommerce Options"
+msgstr ""
+
+#: included/customize/customize.php:1962
+msgid "Fonts Options"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:35 included/meta-boxes/meta-boxes.php:462
+msgid "Choose Options Sidebar."
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:45
+msgid "Logo page"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:51
+msgid "Logo for page"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:58
+msgid "Hide site Tag line."
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:63
+msgid "Header height"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:72
+msgid "Header sticky height"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:81
+msgid "Title Options"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:87
+msgid "Disable Title"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:94
+msgid "Page Layout"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:100
+msgid "Enable Page Full width."
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:106
+msgid "Accept only number. If not set, it will follow customize config."
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:117
+msgid "Enable top header."
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:122
+msgid "Enable header sticky."
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:140
+msgid ""
+"Choose Options Header Layout. If set Inherit, it follow option of customize"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:147
+msgid "If check, header will be use transparent style."
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:164
+msgid "Enable Footer sticky"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:168
+msgid "Footer always on bottom."
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:171
+msgid "Enable top footer"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:177
+msgid "Disable main footer"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:193
+msgid "Choose Footer Layout."
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:199
+msgid "Post Meta"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:204
+msgid "Author avatar"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:205
+msgid "Author avatar display in frontend"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:211
+msgid "Author name"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:212
+msgid "Author name display in frontend"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:217
+msgid "Author description"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:218
+msgid "Author description display in frontend"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:230
+msgid "Preset style"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:236
+msgid "Active Dark Style"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:240
+msgid ""
+"If check, all value custom color & background will be override. Page will "
+"switch to use dark style"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:243
+msgid "Page Color & Background"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:249
+msgid "Page Accent Color"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:255
+msgid "Page background"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:256
+msgid "Background Image for page"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:262
+msgid "Page Background Color"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:268
+msgid "Header Color & Background"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:274
+msgid "Active Custom color & background header"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:278
+#: included/meta-boxes/meta-boxes.php:381
+msgid "If check, all value custom color & background will be accept"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:281
+msgid "Header Color"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:282
+msgid "Color of text in header"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:288
+msgid "Header Color Hover"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:295
+msgid "Header Background"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:302
+msgid "Header Background Opacity"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:303
+#: included/meta-boxes/meta-boxes.php:322
+#: included/meta-boxes/meta-boxes.php:340
+msgid ""
+"Controls the opacity for the header. Opacity only works with ranges between "
+"0 (transparent) and 1 (opaque). Ex: 0.4"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:314
+msgid "Header sticky Background"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:321
+msgid "Header Sticky Background Opacity"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:333
+#: included/meta-boxes/meta-boxes.php:339
+msgid "Header Border Color"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:370
+#: included/meta-boxes/meta-boxes.php:408
+msgid "Footer Color"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:377
+msgid "Active Custom color & background footer"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:384
+msgid "Footer Background"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:390
+msgid "Footer Background Opacity"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:391
+#: included/meta-boxes/meta-boxes.php:433
+msgid ""
+"Controls the opacity for the footer. Opacity only works with ranges between "
+"0 (transparent) and 1 (opaque). Ex: 0.4"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:402
+msgid "Footer Title Color"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:414
+msgid "Footer Link Color"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:420
+msgid "Footer Link Color Hover"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:426
+msgid "Footer Bottom Border Color"
+msgstr ""
+
+#: included/meta-boxes/meta-boxes.php:432
+msgid "Footer Bottom Border Opacity"
+msgstr ""
+
+#: included/templates/post_pagination.php:9
+msgid "Previous article"
+msgstr ""
+
+#: included/templates/post_pagination.php:18
+msgid "Next article"
+msgstr ""
+
+#: included/templates/related_posts.php:17
+msgid "YOU MIGHT ALSO LIKE"
+msgstr ""
+
+#: included/templates/right-header.php:9 included/templates/search.php:9
+#: included/templates/header/header-template.php:16
+msgid "Type & hit enter..."
+msgstr ""
+
+#: included/templates/right-header.php:18
+msgid "Toogle Search block"
+msgstr ""
+
+#: included/templates/right-header.php:26
+msgid "My Account"
+msgstr ""
+
+#: included/templates/right-header.php:29
+msgid "Login / Register"
+msgstr ""
+
+#: included/templates/single-section.php:4
+msgid "By "
+msgstr ""
+
+#: included/templates/single-section.php:7
+msgid "Write comment"
+msgstr ""
+
+#: included/templates/single-section.php:7
+msgid "1 comment"
+msgstr ""
+
+#: included/templates/single-section.php:7
+#, php-format
+msgid "% comment"
+msgstr ""
+
+#: included/theme-function/rit-function.php:141
+msgid "None"
+msgstr ""
+
+#: included/theme-function/rit-function.php:248
+msgid "Widget Area"
+msgstr ""
+
+#: included/theme-function/rit-function.php:250
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: included/theme-function/rit-function.php:257
+msgid "Sidebar 2"
+msgstr ""
+
+#: included/theme-function/rit-function.php:259
+msgid "Add widgets here to appear in your sidebar 2."
+msgstr ""
+
+#: included/theme-function/rit-function.php:266
+msgid "Top Left Header"
+msgstr ""
+
+#: included/theme-function/rit-function.php:268
+msgid "Add widgets here to appear at top left header."
+msgstr ""
+
+#: included/theme-function/rit-function.php:274
+msgid "Top Right Header"
+msgstr ""
+
+#: included/theme-function/rit-function.php:276
+msgid "Add widgets here to appear at top right header."
+msgstr ""
+
+#: included/theme-function/rit-function.php:282
+msgid "Header Vertical"
+msgstr ""
+
+#: included/theme-function/rit-function.php:284
+msgid "Add widgets here to appear at header vertical."
+msgstr ""
+
+#: included/theme-function/rit-function.php:291
+msgid "Top Footer"
+msgstr ""
+
+#: included/theme-function/rit-function.php:293
+msgid "Add widgets here to appear at top footer."
+msgstr ""
+
+#: included/theme-function/rit-function.php:300
+msgid "Main Footer 1"
+msgstr ""
+
+#: included/theme-function/rit-function.php:302
+msgid "Add widgets here to appear at main footer 1."
+msgstr ""
+
+#: included/theme-function/rit-function.php:309
+msgid "Main Footer 2"
+msgstr ""
+
+#: included/theme-function/rit-function.php:311
+msgid "Add widgets here to appear at main footer 2."
+msgstr ""
+
+#: included/theme-function/rit-function.php:318
+msgid "Main Footer 3"
+msgstr ""
+
+#: included/theme-function/rit-function.php:320
+msgid "Add widgets here to appear at main footer 3."
+msgstr ""
+
+#: included/theme-function/rit-function.php:326
+msgid "Main Footer 4"
+msgstr ""
+
+#: included/theme-function/rit-function.php:328
+msgid "Add widgets here to appear at main footer 4."
+msgstr ""
+
+#: included/theme-function/rit-function.php:335
+msgid "Bottom Footer"
+msgstr ""
+
+#: included/theme-function/rit-function.php:337
+msgid "Add widgets here to appear at bottom footer."
+msgstr ""
+
+#: included/theme-function/rit-function.php:344
+msgid "Left Bottom Footer for Footer Style 2"
+msgstr ""
+
+#: included/theme-function/rit-function.php:346
+msgid ""
+"Add widgets here to appear at left bottom footer. Work with footer style 2"
+msgstr ""
+
+#: included/theme-function/rit-function.php:353
+msgid "Right Bottom Footer for Footer Style 2"
+msgstr ""
+
+#: included/theme-function/rit-function.php:355
+msgid ""
+"Add widgets here to appear at right bottom footer. Work with footer style 2"
+msgstr ""
+
+#: included/theme-function/rit-function.php:362
+msgid "Main Footer for footer style 3"
+msgstr ""
+
+#: included/theme-function/rit-function.php:364
+msgid "Add widgets here to appear at main footer of style 3."
+msgstr ""
+
+#: included/theme-function/rit-function.php:371
+msgid "Bottom Footer for footer style 3"
+msgstr ""
+
+#: included/theme-function/rit-function.php:373
+msgid "Add widgets here to appear at bottom footer of style 3."
+msgstr ""
+
+#: included/theme-function/rit-function.php:413
+msgid "Reply"
+msgstr ""
+
+#: included/theme-function/rit-function.php:414
+msgid "Log in to reply."
+msgstr ""
+
+#: included/theme-function/rit-function.php:464
+msgid "River Theme core"
+msgstr ""
+
+#: included/theme-function/rit-function.php:471
+msgid "Revolution Slider"
+msgstr ""
+
+#: included/theme-function/rit-function.php:478
+msgid "Visual Composer"
+msgstr ""
+
+#: included/theme-function/rit-function.php:489
+msgid "Woocommerce product filter"
+msgstr ""
+
+#: included/theme-function/rit-function.php:495
+msgid "Meta Box"
+msgstr ""
+
+#: included/theme-function/rit-function.php:500
+msgid "Contact Form 7"
+msgstr ""
+
+#: included/theme-function/rit-function.php:505
+msgid "Max Mega Menu"
+msgstr ""
+
+#: included/theme-function/rit-function.php:511
+msgid "Newsletter"
+msgstr ""
+
+#: included/theme-function/rit-function.php:516
+msgid "Instagram Feed"
+msgstr ""
+
+#: included/theme-function/rit-function.php:521
+msgid "WP User Avatar"
+msgstr ""
+
+#: included/theme-function/rit-function.php:525
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: included/theme-function/rit-function.php:529
+msgid "YITH WooCommerce Ajax Search"
+msgstr ""
+
+#: included/theme-function/rit-function.php:546
+msgid "Install Required Plugins"
+msgstr ""
+
+#: included/theme-function/rit-function.php:547
+msgid "Install Plugins"
+msgstr ""
+
+#: included/theme-function/rit-function.php:548
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: included/theme-function/rit-function.php:549
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: included/theme-function/rit-function.php:550
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:555
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:560
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:565
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:570
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:575
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:580
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:585
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:590
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:595
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:600
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:605
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: included/theme-function/rit-function.php:610
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: included/theme-function/rit-function.php:611
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: included/theme-function/rit-function.php:612
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: included/theme-function/rit-function.php:613
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: included/theme-function/rit-function.php:614
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: included/theme-function/rit-function.php:615
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: included/theme-function/rit-function.php:616
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: included/widgets/about-me.php:106
+msgid "About me widget. Help make information for author is easy."
+msgstr ""
+
+#: included/widgets/about-me.php:112
+msgid "RIT: About me"
+msgstr ""
+
+#: included/widgets/about-me.php:209 included/widgets/img-hover.php:121
+#: included/widgets/recent-post.php:109
+#: included/widgets/testimonials-widget.php:175
+msgid "Title:"
+msgstr ""
+
+#: included/widgets/about-me.php:217 included/widgets/img-hover.php:127
+msgid "Image:"
+msgstr ""
+
+#: included/widgets/about-me.php:229 included/widgets/img-hover.php:133
+msgid "Select Image"
+msgstr ""
+
+#: included/widgets/about-me.php:233
+msgid "Name:"
+msgstr ""
+
+#: included/widgets/about-me.php:240 included/widgets/img-hover.php:136
+msgid "Caption:"
+msgstr ""
+
+#: included/widgets/about-me.php:247
+msgid "Sign Image:"
+msgstr ""
+
+#: included/widgets/about-me.php:259
+msgid "Select Sign"
+msgstr ""
+
+#: included/widgets/about-me.php:273 included/widgets/img-hover.php:182
+msgid "Class:"
+msgstr ""
+
+#: included/widgets/img-hover.php:37
+msgid "Easy add image for sidebar."
+msgstr ""
+
+#: included/widgets/img-hover.php:43
+msgid "RIT: Image Sidebar"
+msgstr ""
+
+#: included/widgets/img-hover.php:141
+msgid "Link:"
+msgstr ""
+
+#: included/widgets/img-hover.php:147
+msgid "Text Link:"
+msgstr ""
+
+#: included/widgets/img-hover.php:154
+msgid "Open in new tabs:"
+msgstr ""
+
+#: included/widgets/img-hover.php:159
+msgid "Yes"
+msgstr ""
+
+#: included/widgets/img-hover.php:162
+msgid "No"
+msgstr ""
+
+#: included/widgets/img-hover.php:167
+msgid "Image align:"
+msgstr ""
+
+#: included/widgets/img-hover.php:172
+msgid "Center"
+msgstr ""
+
+#: included/widgets/img-hover.php:175
+msgid "Left"
+msgstr ""
+
+#: included/widgets/img-hover.php:177
+msgid "Right"
+msgstr ""
+
+#: included/widgets/recent-post.php:19
+msgid "A widget that displays posts"
+msgstr ""
+
+#: included/widgets/recent-post.php:25
+msgid "RIT: Posts"
+msgstr ""
+
+#: included/widgets/recent-post.php:104
+msgid "Posts Widget"
+msgstr ""
+
+#: included/widgets/recent-post.php:115
+#: included/widgets/testimonials-widget.php:181
+msgid "Filter by Category:"
+msgstr ""
+
+#: included/widgets/recent-post.php:117
+#: included/widgets/testimonials-widget.php:183
+msgid "All categories"
+msgstr ""
+
+#: included/widgets/recent-post.php:125
+#: included/widgets/testimonials-widget.php:211
+msgid "Order by:"
+msgstr ""
+
+#: included/widgets/recent-post.php:127
+msgid "Date"
+msgstr ""
+
+#: included/widgets/recent-post.php:128
+msgid "Author"
+msgstr ""
+
+#: included/widgets/recent-post.php:129
+#: included/widgets/widget-social-icons.php:131
+msgid "Title"
+msgstr ""
+
+#: included/widgets/recent-post.php:130
+msgid "Name"
+msgstr ""
+
+#: included/widgets/recent-post.php:131
+msgid "Comment Count"
+msgstr ""
+
+#: included/widgets/recent-post.php:132
+#: included/widgets/testimonials-widget.php:214
+msgid "Random"
+msgstr ""
+
+#: included/widgets/recent-post.php:135
+msgid "Order:"
+msgstr ""
+
+#: included/widgets/recent-post.php:137
+msgid "DESC"
+msgstr ""
+
+#: included/widgets/recent-post.php:138
+msgid "ASC"
+msgstr ""
+
+#: included/widgets/recent-post.php:143
+#: included/widgets/testimonials-widget.php:193
+msgid "Number of posts to show:"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:19
+msgid "A widget display testimonials follow category"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:25
+msgid "RIT: Testimonials"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:171
+msgid "Testimonials"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:197
+msgid "Type display:"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:204
+msgid "Style display:"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:206
+msgid "Default"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:207
+msgid "Style 1"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:213
+msgid "Latest"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:218
+msgid "Columns:"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:220
+msgid "1"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:221
+msgid "2"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:222
+msgid "3"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:223
+msgid "4"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:224
+msgid "5"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:225
+msgid "6"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:229
+msgid "Content:"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:231
+msgid "Excerpt"
+msgstr ""
+
+#: included/widgets/testimonials-widget.php:232
+msgid "Full content"
+msgstr ""
+
+#: included/widgets/widget-social-icons.php:86
+msgid "Displays your social profile."
+msgstr ""
+
+#: included/widgets/widget-social-icons.php:88
+msgid "RIT Social"
+msgstr ""
+
+#: included/widgets/widget-social-icons.php:137
+msgid "Display"
+msgstr ""
+
+#: included/widgets/widget-social-icons.php:139
+msgid "Only Text"
+msgstr ""
+
+#: included/widgets/widget-social-icons.php:140
+msgid "Only Icon"
+msgstr ""
+
+#: included/widgets/widget-social-icons.php:141
+msgid "Both Text and Icon"
+msgstr ""
+
+#: rit-core/post-layout/grid-layout.php:60
+msgid "Read more"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:29
+msgid "Shopping bag"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:76
+msgid "Qty: "
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:63
+#: woocommerce/myaccount/form-login.php:63
+msgid "Create New Account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:120
+#: woocommerce/myaccount/form-login.php:120
+msgid "Sign In"
+msgstr ""
+
+#: woocommerce/single-product/share.php:20
+msgid "Share to facebook"
+msgstr ""
+
+#: woocommerce/single-product/share.php:22
+msgid "Share to twitter"
+msgstr ""
+
+#: woocommerce/single-product/share.php:24
+msgid "Share to google plus"
+msgstr ""
+
+#: woocommerce/single-product/share.php:25
+msgid "Share to pinterest"
+msgstr ""
+
+#: woocommerce/single-product/share.php:26
+msgid "Sent to mail"
+msgstr ""
+
+#: included/templates/footer/footer-default.php:7
+#: included/templates/footer/footer-one-line.php:7
+#: included/templates/footer/footer-simple.php:7
+msgid "Show Less"
+msgstr ""
+
+#: included/templates/footer/footer-default.php:7
+#: included/templates/footer/footer-one-line.php:7
+#: included/templates/footer/footer-simple.php:7
+msgid "Show More"
+msgstr ""
+
+#: included/templates/woocommerce/order-step.php:9
+msgid "Cart"
+msgstr ""
+
+#: included/templates/woocommerce/order-step.php:13
+msgid "Check Out Detail"
+msgstr ""
+
+#: included/templates/woocommerce/order-step.php:17
+msgid "Order Complete"
+msgstr ""
+
+#: included/templates/woocommerce/top-left-product-page.php:11
+msgid "Show/Hide Sidebar"
+msgstr ""
+
+#: included/templates/woocommerce/top-left-product-page.php:17
+msgid "Switch to Grid Layout"
+msgstr ""
+
+#: included/templates/woocommerce/top-left-product-page.php:22
+msgid "Switch to List Layout"
+msgstr ""
+
+#: included/templates/woocommerce/topheadcart.php:12
+#: included/templates/header/header-layout/stack-center-2-layout.php:37
+msgid "View your shopping cart"
+msgstr ""
+
+#: included/templates/woocommerce/topheadcart.php:15
+#, php-format
+msgid "<span>%d</span> <label>item</label>"
+msgid_plural "<span>%d</span> <label>items</label>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Name of the theme
+msgid "Ri iOne"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Ri iOne is a clean, modern and minimal WooCommerce Theme. This template will "
+"be perfect for anyone to create a beautiful store."
+msgstr ""
+
+#. URI of the theme
+msgid "http://wp.rivertheme.com/ri-ione"
+msgstr ""
+
+#. Author of the theme
+msgid "Zootemplate"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.zootemplate.com/"
+msgstr ""

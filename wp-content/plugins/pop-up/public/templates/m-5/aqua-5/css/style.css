@@ -1,0 +1,129 @@
+/*** Base ***/
+
+.aqua-5 a, .aqua-5 a:hover {
+  color: #090909 !important;
+}
+
+/*** General ***/
+
+.aqua-5 .modal-inner {
+  background: #fff;
+  color: #989898;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*** Close Button ***/
+
+.aqua-5 .cc-pu-close {
+  right: 7px;
+  top: 7px;
+  border-radius: 3px;
+  background-color: transparent;
+}
+.aqua-5.chch-free-big .cc-pu-close {
+  width: 45px;
+  height: 45px;
+  padding: 8px 10px !important;
+}
+.aqua-5.chch-free-small .cc-pu-close {
+  width: 30px;
+  height: 30px;
+  padding: 5px 8px !important;
+}
+.aqua-5 .cc-pu-close i {
+  color: #59d5ef;
+}
+
+/*** Headers ***/
+
+/*** Primary ***/
+
+.aqua-5 .modal-inner h2 {
+  text-transform: none !important;
+  color: #090909 !important;
+  font-weight: 300 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+.aqua-5.chch-free-big .modal-inner h2 {
+  font-size: 3.21429em !important;
+  line-height: 1.1em !important;
+  margin-top: 0.21429em !important;
+  margin-bottom: 0.64286em !important;
+}
+.aqua-5.chch-free-small .modal-inner h2 {
+	font-size: 2.1em !important;
+  line-height: 1.1em !important;
+  margin: 0.85714em 0 1em 0 !important;
+}
+.aqua-5 .modal-inner h2 strong {
+  font-weight: 700 !important;
+}
+
+/*** Secondary ***/
+
+.aqua-5 .modal-inner h3 {
+  text-transform: none !important;
+  color: #090909 !important;
+  font-weight: 700 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+.aqua-5.chch-free-big .modal-inner h3 {
+  font-size: 1.42857em !important;
+  line-height: 1.5em !important;
+}
+.aqua-5.chch-free-small .modal-inner h3 {
+	font-size: 1.4em !important;
+  line-height: 1.3em !important;
+}
+
+/*** Content ***/
+
+.aqua-5 .modal-inner p {
+  color: #989898 !important;
+  font-family: 'Roboto', sans-serif !important;
+  margin: 1.78571em 0 13px !important;
+  padding: 0!important;
+}
+
+/*** Privacy ***/
+
+.aqua-5 .cc-pu-privacy-info a {
+  color: inherit;
+  border-bottom: 1px solid #59d5f0;
+}
+.aqua-5 .cc-pu-privacy-section p {
+	margin: 0!important;
+}
+
+/*** Form ***/
+
+.aqua-5 .cc-pu-form-control {
+  border: 1px solid #e0e0e0 !important;
+  background-color: #fff !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+.aqua-5 .cc-pu-smart-form .cc-pu-btn, .aqua-5 .cc-pu-smart-form .cc-pu-btn:hover {
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  border-radius: 5px !important;
+  background: #59d5ef !important;
+  color: #fff !important;
+  padding: 0 35px !important;
+  font-weight: 700 !important;
+}
+.m-5 .cc-pu-smart-form .cc-pu-btn.cc-pu-btn-sending .fa,
+.m-5 .cc-pu-smart-form .cc-pu-btn.cc-pu-btn-sending:hover .fa {
+	color: #fff !important;
+}
+
+.aqua-5.pop-up-cc .cc-pu-thank-you {
+    background-color: #59d5ef !important;
+  	color: #fff;
+}
+.aqua-5.pop-up-cc .cc-pu-thank-you:after {
+  border-top: 0;
+  border-bottom: 8px solid #59d5ef;
+  bottom: auto !important;
+  top: -6px;
+}
+
