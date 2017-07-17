@@ -1,0 +1,89 @@
+/*
+Theme Name: Ri Ione
+Description: Used to style the TinyMCE editor.
+*/
+
+.titre_produit{
+     display: inline-block;
+    padding-top: 40px;
+    position: relative;
+    width: 50%;
+    float: right;
+}
+
+.product_title , .entry-title{
+	font-weight: 400;
+	clear: none;
+    margin-top: 0;
+    padding: 0;
+    font-size: 1.66667rem;
+}
+
+p.price{
+	margin-bottom: 5px !important ;
+}
+
+.price del{
+	color: #7d7d7d !important ;
+    margin-right: 18px;
+}
+
+.price ins{
+	color: #252525 !important ;
+	background: inherit !important ;
+    font-weight: 400 !important ;;
+    font-size: 1.47rem !important ;
+    text-decoration: none;
+    /*padding: 0 5px;*/
+}
+
+.single_add_to_cart_button{
+  	background: #ffffff none repeat scroll 0 0;
+	color: #7a1c00;
+}
+
+p.cart{
+	border-radius: 0;
+    clear: left;
+    font-size: 0.93rem;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 0;
+    padding: 0 55px;
+    text-transform: uppercase;
+}
+
+a.single_add_to_cart_button{
+	background-color: #ffffff !important ;
+    color: #7a1c00 !important ;
+    border-radius: 0;
+    clear: left;
+    font-size: 0.93rem;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 0;
+    padding: 0 55px;
+    text-transform: uppercase;
+}
+
+a.single_add_to_cart_button:hover{
+    background-color: #252525 !important ;
+    color: #fff !important ;
+}
+
+
+.single-produit-breadcrumb{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.produit-breadcrumb{
+	font-size: 0.93rem;
+    margin: 0;
+    padding: 0;
+}

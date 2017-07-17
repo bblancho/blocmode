@@ -15,6 +15,6 @@ global $product;
 ?>
 
 <a href="<?php echo esc_url( add_query_arg( 'add_to_wishlist', $product_id ) )?>" rel="nofollow" data-product-id="<?php echo $product_id ?>" data-product-type="<?php echo $product_type?>" class="<?php echo $link_classes ?>" title="<?php echo esc_attr($label) ?>">
-    <i class="fa fa-heart-o"></i>
+    <i class="fa fa-heart-o">tt</i>
     <span><?php echo $label ?></span>
 </a>

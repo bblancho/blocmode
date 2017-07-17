@@ -1,154 +1,154 @@
-/*
-Theme Name: ri-ione
-Description: Adds support for languages written in a Right To Left (RTL) direction.
-It's easy, just a matter of overwriting all the horizontal positioning attributes
-of your CSS stylesheet in a separate stylesheet file named rtl.css.
-Visible from ri-iOne 1.0.1
-See: https://codex.wordpress.org/Right_to_Left_Language_Support
-*/
-/*Color*/
-body {
-  direction: rtl;
-  unicode-bidi: embed; }
-
-caption,
-th,
-td {
-  text-align: right; }
-
-.rtl .woo-sidebar .widget-title, .rtl .single-product-navigation .prev-product, .rtl #top-cart .cart_list .empty, .rtl .mini_cart_item .right-mini-cart-item,
-.rtl #main-navigation > div > ul ul, .rtl #rit-header.one-line .main-menu > ul > li ul, .rtl .widget-footer-title {
-  text-align: right; }
-.rtl #top-right-header, .rtl .post-pagination .next-post, .rtl #bottom-footer .bottom-footer-block, .rtl #footer-page.one-line .right-bottom-footer,
-.rtl #footer-page.one-line .right-bottom-footer .rit-widget-social-icon, .rtl .woocommerce-ordering .orderby, .rtl .woocommerce nav.woocommerce-pagination,
-.rtl .woo-sidebar .prdctfltr_woocommerce_ordering .prdctfltr_reset, .rtl .single-product-navigation, .rtl .single-product-navigation .product-item-info,
-.rtl .woocommerce-cart .cart-subtotal .content-row, .rtl .woocommerce-cart .order-total .content-row, .rtl .woocommerce-checkout .cart-subtotal .content-row, .rtl .woocommerce-checkout .order-total .content-row,
-.rtl .woocommerce .woocommerce-checkout-review-order-table.shop_table li .content-row.product-total, .rtl .wrap-content-shortcode-banner .wrap-content.right,
-.rtl .rit-list-product-category, .rtl .header-product-filter, .rtl .wrap-content-product-filter > .rit-ajax-load, .rtl #rit-header.menu-right #main-navigation {
-  text-align: left; }
-.rtl .pull-left,
-.rtl .author-img, .rtl .author-content, .rtl #comments-list .comment-avatar, .rtl #comments-list .comment-content, .rtl .rit-posts-widget li:not(.no-thumb) .post-widget-image,
-.rtl .rit-posts-widget li:not(.no-thumb) .post-widget-item-text, .rtl #top-product-page .layout-control-block, .rtl #top-product-page .woocommerce-result-count, .rtl #top-product-page .wrap-woo-ordering,
-.rtl .woocommerce ul.products.list li.product .wrap-product-thumb, .rtl .woocommerce ul.products.list li.product .wrap-product-text, .rtl .wrap-left-single-product .wrap-thumbs-gal,
-.rtl .single-product-navigation .prev-product i, .rtl .single-product-navigation .product-item-info, .rtl .woocommerce .quantity .qty,
-.rtl .woocommerce .quantity .qty-nav, .rtl .woocommerce .single-product-navigation li, .rtl .mini_cart_item .product-thumb,
-.rtl #rit-quickview-lb .wrap-left-single-product, .rtl .woocommerce-cart .shop_table .label-row, .rtl .woocommerce-checkout .shop_table .label-row,
-.rtl .woocommerce-cart .shop_table .content-row, .rtl .woocommerce-checkout .shop_table .content-row, .rtl .wrap_shortcode_pc_banner.metro .rit_pc_banner_item,
-.rtl .list-title-item .left-post, .rtl .list-title-item .rit-post-inner, .rtl .canvas-icon .bar, .rtl #rit-header.vertical, .rtl #rit-header.vertical .header-search-block,
-.rtl #rit-header.vertical .header-search-block form, .rtl #rit-header.vertical .header-search-block:after, .rtl .vertical-content {
-  float: right; }
-.rtl .pull-right,
-.rtl .prdctfltr_checkboxes > label > span > span, .rtl .wrap-left-single-product .wrap-single-image, .rtl .single-product-navigation .next-product i,
-.rtl .single-product-navigation .product-img, .rtl .mini_cart_item .right-mini-cart-item .amount, .rtl #main-navigation > div > ul > li.page_item_has_children > a:after, .rtl #main-navigation > div > ul > li.menu-item-has-children > a:after,
-.rtl #main-navigation > div > ul > li ul .menu-item-has-children > a:after, .rtl #main-navigation > div > ul > li ul .page_item_has_children > a:after {
-  float: left; }
-.rtl #main-navigation > div > ul ul:not(.pos-left) {
-  right: 0;
-  left: auto; }
-.rtl #main-navigation > div > ul ul li:hover > ul:not(.pos-left) {
-  right: 100%;
-  left: auto; }
-.rtl #main-navigation > div > ul ul li:hover > ul.pos-left {
-  right: auto;
-  left: 100%; }
-.rtl #main-navigation > div > ul ul ul:not(.pos-left) {
-  right: calc(100% + 30px);
-  left: auto; }
-.rtl #main-navigation > div > ul ul ul.pos-left {
-  left: calc(100% + 30px);
-  right: auto; }
-.rtl #rit-header.stack-center #right-header {
-  left: 15px;
-  right: 0;
-  float: left; }
-  .rtl #rit-header.stack-center #right-header .list-icon {
-    float: left; }
-.rtl #rit-header.stack-center #main-navigation {
-  position: relative;
-  z-index: 4; }
-.rtl .rit-widget-social-icon.both i {
-  margin-right: 0;
-  margin-left: 10px; }
-.rtl .newsletter-widget form p {
-  padding-right: 0;
-  padding-left: 10px; }
-.rtl .newsletter-widget form p:last-child {
-  padding: 0; }
-.rtl .top-cart-total {
-  left: 0;
-  right: auto; }
-.rtl .header-post .post-date {
-  padding-left: 0;
-  padding-right: 50px; }
-.rtl .rit-posts-widget li:not(.no-thumb) .post-widget-item-text {
-  padding-right: 15px;
-  padding-left: 0; }
-.rtl .header-post .post-date::before {
-  right: 0;
-  left: auto; }
-.rtl blockquote::before, .rtl .quote::before, .rtl q::before {
-  left: 0;
-  right: 45px; }
-.rtl .author-content {
-  padding-right: 30px;
-  padding-left: 10px; }
-.rtl .post-content ul > li::before {
-  right: 0;
-  left: auto; }
-.rtl .post-content ul > li {
-  padding-left: 0;
-  padding-right: 15px; }
-.rtl .prdctfltr_wc.prdctfltr_square .prdctfltr_filter label > span::before {
-  margin-left: 12px;
-  margin-right: 0; }
-.rtl .woocommerce .woocommerce-ordering, .rtl .woocommerce-page .woocommerce-ordering {
-  float: left; }
-.rtl .single-product-navigation .product-item {
-  right: auto;
-  left: 0; }
-.rtl #main-navigation > div > ul > li.page_item_has_children > a::after, .rtl #main-navigation > div > ul > li.menu-item-has-children > a::after {
-  padding-left: 0;
-  padding-right: 5px; }
-.rtl.woocommerce div.product form.cart div.quantity {
-  float: right;
-  margin-left: 10px !important;
-  margin-right: 0 !important; }
-.rtl.woocommerce .woocommerce-product-rating .star-rating {
-  float: right;
-  margin-left: 5px;
-  margin-right: 0; }
-.rtl .mini_cart_item .right-mini-cart-item {
-  padding-left: 0;
-  padding-right: 20px; }
-.rtl .mini_cart_item .right-mini-cart-item .remove {
-  right: auto;
-  left: -5px; }
-.rtl #top-cart .wrap-mini-cart {
-  right: 100%;
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
-  transform: translateX(0); }
-.rtl.cart-active #top-cart .wrap-mini-cart {
-  -webkit-transform: translateX(360px);
-  -moz-transform: translateX(360px);
-  -ms-transform: translateX(360px);
-  -o-transform: translateX(360px);
-  transform: translateX(360px); }
-.rtl.woocommerce-account .woocommerce-MyAccount-navigation {
-  float: right; }
-
-@media (min-width: 769px) {
-  .rtl #rit-header.vertical .header-search-block, .rtl #rit-header.vertical .header-search-block {
-    text-align: right; }
-  .rtl .filter-block {
-    float: right; } }
-@media (max-width: 769px) {
-  .rtl #main-footer, .rtl #top-footer, .rtl .footer-block {
-    text-align: right; } }
-@media (max-width: 681px) {
-  .rtl #yith-wcwl-form .product-price, #yith-wcwl-form .product-stock-status {
-    text-align: right; } }
-
-/*# sourceMappingURL=rtl.css.map */
+/*
+Theme Name: ri-ione
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+Visible from ri-iOne 1.0.1
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+/*Color*/
+body {
+  direction: rtl;
+  unicode-bidi: embed; }
+
+caption,
+th,
+td {
+  text-align: right; }
+
+.rtl .woo-sidebar .widget-title, .rtl .single-product-navigation .prev-product, .rtl #top-cart .cart_list .empty, .rtl .mini_cart_item .right-mini-cart-item,
+.rtl #main-navigation > div > ul ul, .rtl #rit-header.one-line .main-menu > ul > li ul, .rtl .widget-footer-title {
+  text-align: right; }
+.rtl #top-right-header, .rtl .post-pagination .next-post, .rtl #bottom-footer .bottom-footer-block, .rtl #footer-page.one-line .right-bottom-footer,
+.rtl #footer-page.one-line .right-bottom-footer .rit-widget-social-icon, .rtl .woocommerce-ordering .orderby, .rtl .woocommerce nav.woocommerce-pagination,
+.rtl .woo-sidebar .prdctfltr_woocommerce_ordering .prdctfltr_reset, .rtl .single-product-navigation, .rtl .single-product-navigation .product-item-info,
+.rtl .woocommerce-cart .cart-subtotal .content-row, .rtl .woocommerce-cart .order-total .content-row, .rtl .woocommerce-checkout .cart-subtotal .content-row, .rtl .woocommerce-checkout .order-total .content-row,
+.rtl .woocommerce .woocommerce-checkout-review-order-table.shop_table li .content-row.product-total, .rtl .wrap-content-shortcode-banner .wrap-content.right,
+.rtl .rit-list-product-category, .rtl .header-product-filter, .rtl .wrap-content-product-filter > .rit-ajax-load, .rtl #rit-header.menu-right #main-navigation {
+  text-align: left; }
+.rtl .pull-left,
+.rtl .author-img, .rtl .author-content, .rtl #comments-list .comment-avatar, .rtl #comments-list .comment-content, .rtl .rit-posts-widget li:not(.no-thumb) .post-widget-image,
+.rtl .rit-posts-widget li:not(.no-thumb) .post-widget-item-text, .rtl #top-product-page .layout-control-block, .rtl #top-product-page .woocommerce-result-count, .rtl #top-product-page .wrap-woo-ordering,
+.rtl .woocommerce ul.products.list li.product .wrap-product-thumb, .rtl .woocommerce ul.products.list li.product .wrap-product-text, .rtl .wrap-left-single-product .wrap-thumbs-gal,
+.rtl .single-product-navigation .prev-product i, .rtl .single-product-navigation .product-item-info, .rtl .woocommerce .quantity .qty,
+.rtl .woocommerce .quantity .qty-nav, .rtl .woocommerce .single-product-navigation li, .rtl .mini_cart_item .product-thumb,
+.rtl #rit-quickview-lb .wrap-left-single-product, .rtl .woocommerce-cart .shop_table .label-row, .rtl .woocommerce-checkout .shop_table .label-row,
+.rtl .woocommerce-cart .shop_table .content-row, .rtl .woocommerce-checkout .shop_table .content-row, .rtl .wrap_shortcode_pc_banner.metro .rit_pc_banner_item,
+.rtl .list-title-item .left-post, .rtl .list-title-item .rit-post-inner, .rtl .canvas-icon .bar, .rtl #rit-header.vertical, .rtl #rit-header.vertical .header-search-block,
+.rtl #rit-header.vertical .header-search-block form, .rtl #rit-header.vertical .header-search-block:after, .rtl .vertical-content {
+  float: right; }
+.rtl .pull-right,
+.rtl .prdctfltr_checkboxes > label > span > span, .rtl .wrap-left-single-product .wrap-single-image, .rtl .single-product-navigation .next-product i,
+.rtl .single-product-navigation .product-img, .rtl .mini_cart_item .right-mini-cart-item .amount, .rtl #main-navigation > div > ul > li.page_item_has_children > a:after, .rtl #main-navigation > div > ul > li.menu-item-has-children > a:after,
+.rtl #main-navigation > div > ul > li ul .menu-item-has-children > a:after, .rtl #main-navigation > div > ul > li ul .page_item_has_children > a:after {
+  float: left; }
+.rtl #main-navigation > div > ul ul:not(.pos-left) {
+  right: 0;
+  left: auto; }
+.rtl #main-navigation > div > ul ul li:hover > ul:not(.pos-left) {
+  right: 100%;
+  left: auto; }
+.rtl #main-navigation > div > ul ul li:hover > ul.pos-left {
+  right: auto;
+  left: 100%; }
+.rtl #main-navigation > div > ul ul ul:not(.pos-left) {
+  right: calc(100% + 30px);
+  left: auto; }
+.rtl #main-navigation > div > ul ul ul.pos-left {
+  left: calc(100% + 30px);
+  right: auto; }
+.rtl #rit-header.stack-center #right-header {
+  left: 15px;
+  right: 0;
+  float: left; }
+  .rtl #rit-header.stack-center #right-header .list-icon {
+    float: left; }
+.rtl #rit-header.stack-center #main-navigation {
+  position: relative;
+  z-index: 4; }
+.rtl .rit-widget-social-icon.both i {
+  margin-right: 0;
+  margin-left: 10px; }
+.rtl .newsletter-widget form p {
+  padding-right: 0;
+  padding-left: 10px; }
+.rtl .newsletter-widget form p:last-child {
+  padding: 0; }
+.rtl .top-cart-total {
+  left: 0;
+  right: auto; }
+.rtl .header-post .post-date {
+  padding-left: 0;
+  padding-right: 50px; }
+.rtl .rit-posts-widget li:not(.no-thumb) .post-widget-item-text {
+  padding-right: 15px;
+  padding-left: 0; }
+.rtl .header-post .post-date::before {
+  right: 0;
+  left: auto; }
+.rtl blockquote::before, .rtl .quote::before, .rtl q::before {
+  left: 0;
+  right: 45px; }
+.rtl .author-content {
+  padding-right: 30px;
+  padding-left: 10px; }
+.rtl .post-content ul > li::before {
+  right: 0;
+  left: auto; }
+.rtl .post-content ul > li {
+  padding-left: 0;
+  padding-right: 15px; }
+.rtl .prdctfltr_wc.prdctfltr_square .prdctfltr_filter label > span::before {
+  margin-left: 12px;
+  margin-right: 0; }
+.rtl .woocommerce .woocommerce-ordering, .rtl .woocommerce-page .woocommerce-ordering {
+  float: left; }
+.rtl .single-product-navigation .product-item {
+  right: auto;
+  left: 0; }
+.rtl #main-navigation > div > ul > li.page_item_has_children > a::after, .rtl #main-navigation > div > ul > li.menu-item-has-children > a::after {
+  padding-left: 0;
+  padding-right: 5px; }
+.rtl.woocommerce div.product form.cart div.quantity {
+  float: right;
+  margin-left: 10px !important;
+  margin-right: 0 !important; }
+.rtl.woocommerce .woocommerce-product-rating .star-rating {
+  float: right;
+  margin-left: 5px;
+  margin-right: 0; }
+.rtl .mini_cart_item .right-mini-cart-item {
+  padding-left: 0;
+  padding-right: 20px; }
+.rtl .mini_cart_item .right-mini-cart-item .remove {
+  right: auto;
+  left: -5px; }
+.rtl #top-cart .wrap-mini-cart {
+  right: 100%;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0); }
+.rtl.cart-active #top-cart .wrap-mini-cart {
+  -webkit-transform: translateX(360px);
+  -moz-transform: translateX(360px);
+  -ms-transform: translateX(360px);
+  -o-transform: translateX(360px);
+  transform: translateX(360px); }
+.rtl.woocommerce-account .woocommerce-MyAccount-navigation {
+  float: right; }
+
+@media (min-width: 769px) {
+  .rtl #rit-header.vertical .header-search-block, .rtl #rit-header.vertical .header-search-block {
+    text-align: right; }
+  .rtl .filter-block {
+    float: right; } }
+@media (max-width: 769px) {
+  .rtl #main-footer, .rtl #top-footer, .rtl .footer-block {
+    text-align: right; } }
+@media (max-width: 681px) {
+  .rtl #yith-wcwl-form .product-price, #yith-wcwl-form .product-stock-status {
+    text-align: right; } }
+
+/*# sourceMappingURL=rtl.css.map */

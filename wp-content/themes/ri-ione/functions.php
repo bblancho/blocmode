@@ -30,7 +30,18 @@
  *
  * @since ri-ione 1.0
  */
+
+/********************** Mon code **************************/
+
+require_once(ABSPATH .'wp-content/themes/ri-ione/customs-posts-types/custom_article.php');
+require_once(ABSPATH .'wp-content/themes/ri-ione/customs-posts-types/functions.php');
+
+/**************** Fin de mon code *************************/
+
+
+
 include_once(ABSPATH . 'wp-admin/includes/plugin.php');
+
 if (!function_exists('rit_setup')) :
     /**
      * Sets up theme defaults and registers support for various WordPress features.
@@ -320,6 +331,7 @@ if (!function_exists('rit_theme_wp_admin_style')) {
         wp_enqueue_script('ri_ione_admin_js', get_template_directory_uri() . '/js/ri-ione-admin.js', array(), '1.0.0', true);
     }
 }
+
 add_action('admin_enqueue_scripts', 'rit_theme_wp_admin_style');
 // Remove Script Version
 if (!function_exists('rit_remove_script_version')) {

@@ -29,7 +29,8 @@ global $product;
 		<?php
 		if(rit_woo_layout_single()=='carousel'||rit_woo_layout_single()=='sticky')
 			do_action('rit_woocommerce_show_product_sale_flash');
-		echo $product->get_price_html(); ?></p>
+		echo $product->get_price_html(); ?>	
+	</p>
 </div>
 <?php
 if(rit_woo_layout_single()=='carousel'||rit_woo_layout_single()=='sticky')
