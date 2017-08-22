@@ -80,7 +80,7 @@ get_header('shop'); ?>
 
                 <?php while (have_posts()) : the_post(); ?>
 
-                    <?php wc_get_template_part('content', 'product'); ?>
+                    <?php wc_get_template_part('content', 'product_2'); ?>
 
                 <?php endwhile; // end of the loop. ?>
 

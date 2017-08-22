@@ -1,0 +1,254 @@
+/*
+Theme Name: ri-ione-child
+Template: ri-ione
+Description: Theme enfant du theme Ri ione.
+Author: Blanchard
+Author URI: https://wpmarmite.com
+Version: 1.0
+*/
+
+.content_produit{
+    display: inline-block;
+    padding-top: 3%;
+    position: relative;
+    width: 50%;
+    float: right;
+    margin-bottom: 4%;
+}
+
+.product_title , .entry-title{
+	font-weight: 400;
+	clear: none;
+    margin-top: 0;
+    padding: 0;
+    font-size: 1.66667rem;
+}
+
+p.price{
+	margin-bottom: 5px !important ;
+}
+
+.price del{
+	color: #7d7d7d !important ;
+    margin-right: 18px;
+}
+
+.price ins{
+	color: #252525 !important ;
+	background: inherit !important ;
+    font-weight: 400 !important ;;
+    font-size: 1.47rem !important ;
+    text-decoration: none;
+    /*padding: 0 5px;*/
+}
+
+.single_add_to_cart_button{
+  	background: #ffffff none repeat scroll 0 0;
+	color: #7a1c00;
+}
+
+p.cart{
+	border-radius: 0;
+    clear: left;
+    font-size: 0.93rem;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 0;
+    padding: 0px;
+    margin-top: 14px;
+    text-transform: uppercase;
+}
+
+li.social{
+    border-radius: 0;
+    width: 30%;
+    font-size: 0.93rem;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 0;
+    padding: 0px;
+    margin-top: 14px;
+    text-transform: uppercase;
+}
+li.facebook{background-color: #3b5998;}
+li.twitter{background-color: #4099FF;}
+li.pinterest{background-color: #BD081C;}
+
+li.social>a{
+    color: red;
+    display: block;
+    font-size: 0.6em !important ;
+    height: 100%;
+    line-height: 45px;
+    text-align: center;
+    width: 100%;
+}
+
+li.social>a:hover{
+    color: black !important ;
+}
+
+.social-icons li {
+    font-size: 2em !important ;
+}
+
+a.single_add_to_cart_button{
+	background-color: #252525 !important ;
+    color: yellow !important ;
+    border-radius: 0;
+    clear: left;
+    font-size: 0.93rem;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 0;
+    padding: 0 55px;
+    text-transform: uppercase;
+}
+.fa-facebook, .fa-twitter, .fa-pinterest{color: #fff !important ; }
+a.fa{line-height: 45px !important; text-align: center;}
+.social-icons li a{
+    color: #fff !important ;
+}
+
+.fa{line-height: 2px !important ; color: #fff !important ;}
+
+a.single_add_to_cart_button:hover{
+    color: #fff !important ;
+}
+
+.fa-facebook::before, .fa-twitter::before, .fa-pinterest::before {
+    font-size: 20px;
+    padding-right: 6px;
+}
+
+
+.single-produit-breadcrumb{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.wrap-top-single-product {
+    background: #fff none repeat scroll 0 0 !important;
+}
+
+
+/*** lien réseaux sociaux **/
+.woo-custom-share {
+    padding: 1px 0 !important ;
+}
+
+.social-icons {
+    padding: 0px !important ;
+    text-align: left !important ;
+}
+
+.woo-custom-share .social-icons li {
+    margin: 0 5px 0 0 !important ;
+}
+
+.post-content {
+    margin-bottom: 20px !important ;
+}
+
+/**** produits rattachés */
+
+.post-related {
+    margin-bottom: 0 !important;
+}
+
+.clearboth{
+    clear: both;
+}
+
+/**** Custom de la page accueil boutique -> categorie ***/
+.produit-breadcrumb{
+    font-size: 0.93rem;
+    margin: 0;
+    padding: 0;
+}
+
+.produit_shopstyle{
+   list-style: outside none none;
+    margin: 0px;
+    outline: 0 none;
+    text-align: center;
+    width: 100%;
+}
+
+
+li.categorie_accueil{
+    display: inline-block;
+    margin: 0 2.5% 5%;
+    text-align: center;
+    width: 28%;
+}
+
+a.lien_categorie_accueil{
+    display: block;
+    background-color: #FFF ;
+    position: relative;
+    width: 100%;
+    font-size: 0.4em;
+    color: #000;
+
+    -webkit-transition: all 1000ms linear;
+    -moz-transition: all 1000ms linear;
+    -o-transition: all 1000ms linear;
+    -ms-transition: all 1000ms linear;
+    transition: all 1000ms linear;
+}
+
+a.lien_categorie_accueil>img{
+    height: auto; 
+    width: auto; 
+}
+
+span.titre_categorie_accueil{
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    margin-top: 10px;
+    width: 100%;
+     font-size: 2em;
+}
+
+a.lien_categorie_accueil:hover{
+    background-color: #C7B299;
+    color: #000;
+}
+
+
+/****** page sous-categorie *************/
+
+nav.primary {
+    width:auto;
+    margin:30px auto;
+    display:table;
+}
+     
+nav.primary ul li  {
+    float:left;
+    list-style:none;
+}
+ 
+nav.primary ul li a {
+    height:39px;
+    display:block;
+    font-size:15px;
+    color:#000;
+    padding:0 10px;
+    text-decoration:none;
+    line-height:39px;
+    text-transform: uppercase;
+}
+ 
+nav.primary li a.selected {
+    border-bottom: 3px solid #ED3131;
+}
+

@@ -33,8 +33,8 @@
 
 /********************** Mon code **************************/
 
-require_once(ABSPATH .'wp-content/themes/ri-ione/customs-posts-types/custom_article.php');
-require_once(ABSPATH .'wp-content/themes/ri-ione/customs-posts-types/functions.php');
+// require_once(ABSPATH .'wp-content/themes/ri-ione/customs-posts-types/custom_article.php');
+// require_once(ABSPATH .'wp-content/themes/ri-ione/customs-posts-types/functions.php');
 
 /**************** Fin de mon code *************************/
 
@@ -327,6 +327,7 @@ if (!function_exists('rit_theme_wp_admin_style')) {
     {
         wp_enqueue_style('ri_ione_admin_css', get_template_directory_uri() . '/css/ri-ione-admin.css', array(), false, 'all');
         wp_enqueue_style('font-awesome', get_template_directory_uri() . '/assets/font-awesome/css/font-awesome.min.css');
+        
         wp_enqueue_script('jquery-ui-tabs');
         wp_enqueue_script('ri_ione_admin_js', get_template_directory_uri() . '/js/ri-ione-admin.js', array(), '1.0.0', true);
     }

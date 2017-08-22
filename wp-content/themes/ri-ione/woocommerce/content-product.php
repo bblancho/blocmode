@@ -71,8 +71,9 @@ wp_enqueue_script('slick');
         <?php }?>
     </div>
     <div class="wrap-product-text">
-        <h3 class="product-name"><a href="<?php the_permalink(); ?>"
-                                    title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+        <h3 class="product-name">
+            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?> </a>
+        </h3>
         <?php
         /**
          * woocommerce_after_shop_loop_item_title hook.
