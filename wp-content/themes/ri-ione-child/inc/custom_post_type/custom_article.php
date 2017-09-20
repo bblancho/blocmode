@@ -1,5 +1,5 @@
 <?php
-
+require_once(ABSPATH .'wp-content/themes/ri-ione-child/inc/Tax-meta-class/Tax-meta-class.php');
 add_theme_support( 'post-thumbnails' );  //active les Post thumbnails (images à la une)
 
 
@@ -183,7 +183,49 @@ function init_taxonomy_couleur(){
 
 add_action('init','init_taxonomy_couleur');
 
-/*************** fin de la taxonomy couleur *****************************/
+// taxonomy couleur
+function init_taxonomy_selection(){
+
+	$labels = array(
+		'name'							=> _x( 'selection', 'taxonomy general name', 'my_plugin' ),
+		'singular_name'					=> _x( 'selection', 'taxonomy singular name', 'my_plugin' ),
+		'menu_name'						=> _x( 'selection', 'taxonomy general name', 'my_plugin' ),
+		'search_items'					=> __( 'Rechercher une selection', 'my_plugin' ),
+		'popular_items'					=> __( 'selection populaires', 'my_plugin' ),
+		'all_items'						=> __( 'Toutes les marques', 'my_plugin' ),
+		'parent_item'					=> __( 'selection parent', 'my_plugin' ),
+		'parent_item_colon'				=> __( 'selection parent', 'my_plugin' ),
+		'edit_item'						=> __( 'Modifier cette selection', 'my_plugin' ),
+		'view_item'						=> __( 'Afficher cette selection', 'my_plugin' ),
+		'update_item'					=> __( 'Mettre à jour cette selection', 'my_plugin' ),
+		'add_new_item'					=> __( 'Ajouter une nouvelle selection', 'my_plugin' ),
+		'new_item_name'					=> __( 'Ajouter une nouvelle selection', 'my_plugin' ),
+		'not_found'						=> __( 'Aucune selection trouvée', 'my_plugin' ),
+	);
+
+	$rewrite = array(
+		'slug'                       => 'selection',
+		'with_front'                 => true,
+		'hierarchical'               => true,
+	);
+
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+		'show_tagcloud'              => true,
+		'rewrite'                    => $rewrite,
+	);
+
+	register_taxonomy('selection', array('produit'), $args);
+}
+
+add_action('init','init_taxonomy_selection');
+
+/*************** fin de la taxonomy selection *****************************/
 
 
 
@@ -229,27 +271,93 @@ function save_donnees_produit($post_ID){
 	$prix 			= $_POST['_prix'] ;
 	$prix_solde 	= $_POST['_prix_solde'] ;
 
+	if( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE){
+		return ;
+	}
+
+	// Secondly we need to check if the user intended to change this value.
+  		if ( !wp_verify_nonce( $_POST['data_book_nonce'], plugin_basename( __FILE__ ) ) )
+      		return;
+      	
+	// Finaly we need to check if the current user is authorised to do this action. 
+	  	if ( 'page' == $_POST['post_type'] ) {
+		    if ( ! current_user_can( 'edit_page', $post_id ) )
+		        return;
+	  	} else {
+		    if ( ! current_user_can( 'edit_post', $post_id ) )
+		        return;
+	  	}
 
 	if( isset($url_produit) ){
 		$url_produit =esc_html($url_produit) ;
-		update_post_meta($post_ID,'_url_produit',$url_produit);
+		update_post_meta($post_ID,'_url_produit',esc_url($url_produit) );
 	}
 
 	if( isset($bouton_texte) ){
 		$bouton_texte =esc_html($bouton_texte) ;
-		update_post_meta($post_ID,'_bouton_texte',$bouton_texte);
+		update_post_meta($post_ID,'_bouton_texte',sanitize_text_field($bouton_texte) );
 	}
 
 	if( isset($prix) ){
 		$prix =esc_html($prix) ;
-		update_post_meta($post_ID,'_prix',$prix);
+		update_post_meta($post_ID,'_prix',sanitize_text_field($prix) );
 	}
 
 	if( isset($prix_solde) ){
 		$prix_solde =esc_html($prix_solde) ;
-		update_post_meta($post_ID,'_prix_solde',$prix_solde);
+		update_post_meta($post_ID,'_prix_solde',sanitize_text_field($prix_solde) );
 	}
 
 }
 
 
+/*************** Ajout d'une colonne dans CPT "Article" ***********************/
+
+function add_column_taxo_category($columns){
+	$columns['image_produit'] = "Image du produit";
+	return $columns ;
+}
+add_filter('manage_edit-produit_columns', 'add_column_taxo_category') ;
+
+
+function manage_produit_columns($columns){
+	global $post;
+
+	switch ($columns) {
+		case 'image_produit':
+			$post_thumbnail_id = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ) , 'thumbnail',false );
+			$url_article = $post_thumbnail_id[0] ;
+			$titre 	= esc_attr(get_the_title($post->id) ) ;
+	       	echo "<img src='$url_article' alt='$titre' />";
+		
+		default:
+			break;
+	}
+}
+add_action('manage_produit_posts_custom_column', 'manage_produit_columns') ;
+
+
+
+/********* Ajout des colonnes dans les taxonomys *******************/
+
+$config = array(
+	'id' => 'img_genre',			// meta box id, unique per meta box
+	'title' => 'Image de la catégorie',	// meta box title
+	'pages' => array('categorie'),		// taxonomy name, accept categories, post_tag and custom taxonomies
+	'context' => 'normal',			// where the meta box appear: normal (default), advanced, side; optional
+	'fields' => array(),			// list of meta fields (can be added by field arrays)
+	'local_images' => true,		// Use local or hosted images (meta box images for add/remove)
+	'use_with_theme' => false		//change path if used with theme set to true, false for a plugin or anything else for a custom path(default false).
+);
+
+// Initiate your taxonomy custom fields
+$img_meta = new Tax_Meta_Class($config);
+
+$img_meta->addImage('image_field_id',array('name'=> __('My Image ','Image de la catégorie')));
+
+$img_meta->Finish();
+
+// Utilisation front-end
+
+	// $saved_data = get_tax_meta($term_id,'text_field_id');
+	// echo $saved_data;

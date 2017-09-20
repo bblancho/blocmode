@@ -58,6 +58,7 @@
     $erreur = "" ;
     global $wpdb;
     $n = 1;
+    
     foreach ($tab_id_shopstyle as  $id_liste) {
        
         $url_section_articles = "http://api.shopstyle.com/api/v2/lists/$id_liste/items?pid=uid6681-36113709-88";

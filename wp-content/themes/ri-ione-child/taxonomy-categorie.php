@@ -38,7 +38,7 @@
         <ul class='produit_shopstyle'>
             <?php
             
-              global $wp_query;
+              global $wp_query; 
               $cat_name = $wp_query->query_vars['categorie'];
 
               $tax_query = array(

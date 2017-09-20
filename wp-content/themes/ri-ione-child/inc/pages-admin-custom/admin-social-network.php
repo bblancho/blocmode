@@ -12,16 +12,13 @@
 	        62 //position dans la barre de menu
 	    );
 
-		// Création des sous-menus
+		// Création des sous-menus add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function )
 	    // add_submenu_page( 'admin-social-network', 'Lien Shopstyle', 'Shopstyle', 'manage_options', 'shopstyle', 'create_section_social_network' ) ;
-	    // add_submenu_page( 'admin-social-network', 'Liste des catégories', 'Shop categories', 'manage_options', 'liste-categories', 'create_section_social_network' ) ;
 
-	    //add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function )
-
-	    // on active les champs
-	    add_action('admin_init', 'custom_settings') ;
+	    
 	}
 	add_action('admin_menu', 'reseaux_sociaux_menu_admin_page' ) ;
+
 
 	function custom_settings(){
 		// On renregistre le contenu de nos champs
@@ -29,13 +26,17 @@
 		register_setting('reseaux_sociaux', 'tweeter','sanitize_tweeter') ;
 		register_setting('reseaux_sociaux', 'pinterest') ;
 
-		//On crée une section
-		add_settings_section('section_rs','Réseaux sociaux', 'section_reseaux_sociaux', 'admin-social-network' ) ;
+		//On crée une section add_settings_section( $id, $title, $callback, $page );
+			add_settings_section('section_rs','Réseaux sociaux', 'section_reseaux_sociaux', 'admin-social-network' ) ;
 
-		add_settings_field( 'social_facebook', 'Pseudo Facebook :', 'create_input_facebook', 'admin-social-network','section_rs' );
-		add_settings_field( 'social_tweeter', "Pseudo Tweeter :", 'create_input_tweeter', "admin-social-network", 'section_rs'  );
-		add_settings_field( 'social_pinterest', "Pseudo Pinterest :", 'create_input_pinterest', "admin-social-network", 'section_rs'  );
+		//add_settings_field( $id, $title, $callback, $page, $section )
+			add_settings_field( 'social_facebook', 'Pseudo Facebook :', 'create_input_facebook', 'admin-social-network','section_rs' );
+			add_settings_field( 'social_tweeter', "Pseudo Tweeter :", 'create_input_tweeter', "admin-social-network", 'section_rs'  );
+			add_settings_field( 'social_pinterest', "Pseudo Pinterest :", 'create_input_pinterest', "admin-social-network", 'section_rs'  );
 	}
+	
+	// on active les champs
+	    add_action('admin_init', 'custom_settings') ;
 
 	function section_reseaux_sociaux(){
 		//echo "section reseau sociaux" ;

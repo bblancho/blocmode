@@ -51,6 +51,7 @@
 	// on active les champs
     add_action('admin_init', 'custom_settings_shopstyle') ;
 
+
 	function section_shopstyle(){
 		//echo "section reseau sociaux" ;
 		$url = get_stylesheet_directory_uri() ;
