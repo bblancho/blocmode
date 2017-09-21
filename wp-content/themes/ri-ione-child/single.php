@@ -32,7 +32,6 @@ if ($rit_sidebar == 'no-sidebar') {
                     <?php
                     while (have_posts()) : the_post();
                         get_template_part('content', 'single');
-                        echo "voici mon article" ;
                     endwhile;
                     ?>
                 </div>

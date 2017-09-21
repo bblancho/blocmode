@@ -1,5 +1,4 @@
 <?php
-require_once(ABSPATH .'wp-content/themes/ri-ione-child/inc/custom_post_type/custom_book.php') ;
 require_once(ABSPATH .'wp-content/themes/ri-ione-child/inc/custom_post_type/custom_article.php') ;
 
 

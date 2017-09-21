@@ -313,11 +313,11 @@ function save_donnees_produit($post_ID){
 
 /*************** Ajout d'une colonne dans CPT "Article" ***********************/
 
-function add_column_taxo_category($columns){
+function add_column_cpt_produit($columns){
 	$columns['image_produit'] = "Image du produit";
 	return $columns ;
 }
-add_filter('manage_edit-produit_columns', 'add_column_taxo_category') ;
+add_filter('manage_edit-produit_columns', 'add_column_cpt_produit') ;
 
 
 function manage_produit_columns($columns){
@@ -338,7 +338,7 @@ add_action('manage_produit_posts_custom_column', 'manage_produit_columns') ;
 
 
 
-/********* Ajout des colonnes dans les taxonomys *******************/
+/************* Ajout d'un champ dans une taxonomy *******************/
 
 $config = array(
 	'id' => 'img_genre',			// meta box id, unique per meta box
@@ -353,11 +353,43 @@ $config = array(
 // Initiate your taxonomy custom fields
 $img_meta = new Tax_Meta_Class($config);
 
-$img_meta->addImage('image_field_id',array('name'=> __('My Image ','Image de la catégorie')));
+$img_meta->addImage( 'image_field_id', array('name'=> 'couverture') );
+$img_meta->addText('text_field',array('name'=> 'niveau'));
 
 $img_meta->Finish();
 
 // Utilisation front-end
 
-	// $saved_data = get_tax_meta($term_id,'text_field_id');
+	// $saved_data = get_term_meta($term_id,'image_field_id');
 	// echo $saved_data;
+
+/********* Ajout des colonnes dans les taxonomys *******************/
+
+function add_column_taxo_categorie( $columns )
+{
+	$columns['couverture_cat'] = __('Couverture');
+
+	return $columns;
+}
+//manage_edit-{taxonomy}_columns
+add_filter('manage_edit-categorie_columns' , 'add_column_taxo_categorie');
+
+
+function manage_categorie_columns( $content, $columns, $term_id )
+{	
+    if ( 'couverture_cat' == $columns ) {
+        // on récupère l'image associé au terme
+        $image_categorie = get_term_meta($term_id,'image_field_id');
+        
+        if( !empty($image_categorie) ){
+        	$image_categorie_src = $image_categorie[0]['url'] ;
+        	$content = "<img src='$image_categorie_src' alt='couverture' >";
+        } else {
+        	$content = 'Aucune image de couverture' ;
+        }
+        
+    }
+	return $content;
+}
+//manage_{taxonomy}_custom_column
+add_filter( 'manage_categorie_custom_column', 'manage_categorie_columns', 10, 3 );
